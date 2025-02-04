@@ -21,7 +21,6 @@
 	display: flex;
 	flex-direction: column;
 	font-size: 1.5rem;
-	font-weight: bold;
 }
 
 .firstName {
@@ -30,6 +29,7 @@
 
 .lastName {
 	line-height: 1;
+	font-weight: bold;
 }
 
 .nav {
@@ -46,5 +46,6 @@
 
 .navLink:hover,
 .navLink:active {
+	color: #6fa088;
 	font-weight: bold;
 }

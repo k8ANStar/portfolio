@@ -1,2 +1,89 @@
-.page {
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4rem 0;
+}
+
+/* Hero Section */
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	max-width: 1200px;
+	margin-bottom: 4rem;
+}
+
+.text {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.text h1 {
+	font-size: 3rem;
+	margin-bottom: 0.5rem;
+}
+
+.text h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #555;
+}
+
+.text p {
+	font-size: 1.2rem;
+	color: #666;
+	line-height: 1.6;
+}
+
+/* Image of Kate */
+.imageContainer {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.portrait {
+	border-radius: 15px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Work Collage */
+.collageContainer {
+	width: 80%;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 15px;
+	position: relative;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.collage {
+	width: 200%;
+	height: 200%;
+	background-image: url("/collage.jpg");
+	background-size: cover;
+	position: absolute;
+	animation: moveCollage 15s linear infinite alternate;
+}
+
+@keyframes moveCollage {
+	0% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(-30%, -20%);
+	}
+	100% {
+		transform: translate(30%, 20%);
+	}
+}
+
+.workText {
+	margin-top: 20px;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
 }
