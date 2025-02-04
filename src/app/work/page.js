@@ -1,14 +1,15 @@
 import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 
-
-export default function Home() {
+export default function Work() {
 	return (
-		<div>
+		<>
 			<Header />
-		
-			<h1>Under Construction!</h1>
+			<main>
+				<p>Coming Soon!</p>
+			</main>
+
 			<Footer />
-		</div>
+		</>
 	);
 }
