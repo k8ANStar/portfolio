@@ -5,11 +5,13 @@
 	padding: 1rem 2rem;
 	background: #fff;
 	font-family: "TT Interphases Pro TRL", sans-serif;
+	text-decoration: none;
 }
 
 .logoContainer {
 	display: flex;
 	align-items: center;
+	
 }
 
 .logo {
@@ -22,6 +24,8 @@
 	display: flex;
 	flex-direction: column;
 	font-size: 2rem;
+
+	color: black;
 }
 
 .firstName {
@@ -34,6 +38,7 @@
 }
 
 .nav {
+	
 	display: flex;
 	gap: 2rem;
 }
@@ -49,4 +54,5 @@
 .navLink:active {
 	color: #6fa088;
 	font-weight: bold;
+	
 }

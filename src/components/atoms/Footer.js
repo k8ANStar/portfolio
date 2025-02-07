@@ -29,6 +29,7 @@ export default function Footer() {
 					<FaGithub />
 				</a>
 			</div>
+			<p className={styles.created}>© 2025 Kate Starchuk </p>
 		</footer>
 	);
 }

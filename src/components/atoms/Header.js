@@ -8,6 +8,7 @@ export default function Header() {
 				<Link href="/" className={styles.logo}>
 					<img src="/logoks.png" alt="kates Logo" />
 				</Link>
+
 				<div className={styles.name}>
 					<span className={styles.firstName}>Kate</span>
 					<span className={styles.lastName}>Starchuk</span>
@@ -18,8 +19,8 @@ export default function Header() {
 					<Link href="/" className={styles.navLink}>
 						Home
 					</Link>
-					<Link href="/work" className={styles.navLink}>
-						Work
+					<Link href="/projects" className={styles.navLink}>
+						Projects
 					</Link>
 					<Link href="/about" className={styles.navLink}>
 						About

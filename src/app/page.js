@@ -11,7 +11,7 @@ export default function Home() {
 				<section className={styles.hero}>
 					<div className={styles.text}>
 						<h1>Hello, I'm Kate</h1>
-						<h2>UX/UI Designer</h2>
+						<h2>UX/UI Designer | Frontend Developer</h2>
 						<p>
 							Based in Vancouver, BC, specializing in creating user-centered
 							designs that are both functional and visually engaging. I’m
@@ -32,7 +32,7 @@ export default function Home() {
 				<section className={styles.collageContainer}>
 					<div className={styles.collage}></div>
 				</section>
-				<h2 className={styles.workText}>Work</h2>
+				<h2 className={styles.projectsText}>Work</h2>
 			</main>
 
 			<Footer />
