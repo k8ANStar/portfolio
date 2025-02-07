@@ -5,7 +5,9 @@ export default function Header() {
 	return (
 		<header className={styles.header}>
 			<div className={styles.logoContainer}>
-				<img src="/logoks.png" alt="Logo" className={styles.logo} />
+				<Link href="/" className={styles.logo}>
+					<img src="/logoks.png" alt="kates Logo" />
+				</Link>
 				<div className={styles.name}>
 					<span className={styles.firstName}>Kate</span>
 					<span className={styles.lastName}>Starchuk</span>

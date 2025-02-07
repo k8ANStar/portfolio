@@ -21,7 +21,7 @@ export default function Home() {
 					</div>
 					<div className={styles.imageContainer}>
 						<img
-							src="/kate-portrait.png"
+							src="/sleepykate.svg"
 							alt="Kate's Portrait"
 							className={styles.portrait}
 						/>

@@ -19,38 +19,35 @@
 .text {
 	flex: 1;
 	padding-right: 2rem;
+	font-family: "TT Interphases Pro TRL", sans-serif;
 }
 
 .text h1 {
 	font-size: 3rem;
 	margin-bottom: 0.5rem;
+	font-family: "TT Interphases Pro TRL", sans-serif;
 }
 
 .text h2 {
 	font-size: 2rem;
 	margin-bottom: 1rem;
 	color: #555;
+	font-family: "TT Interphases Pro TRL", sans-serif;
 }
 
 .text p {
 	font-size: 1.2rem;
 	color: #666;
 	line-height: 1.6;
+	font-family: "TT Interphases Pro TRL", sans-serif;
 }
 
-/* Image of Kate */
 .imageContainer {
 	flex: 1;
 	display: flex;
 	justify-content: center;
 }
 
-.portrait {
-	border-radius: 15px;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Work Collage */
 .collageContainer {
 	width: 80%;
 	height: 400px;
@@ -85,5 +82,109 @@
 	margin-top: 20px;
 	font-size: 2rem;
 	font-weight: bold;
-	text-align: center;
+	font-family: "TT Interphases Pro TRL", sans-serif;
+}
+
+/* About Section */
+
+.heroAbout {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6rem;
+	width: 100%;
+	max-width: 100%;
+	min-height: 100%;
+	margin: 0 auto 4rem;
+	padding: 3rem 0;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	background: linear-gradient(to right, white 50%, #ffb71b 50%);
+}
+
+.textAbout {
+	flex: 1;
+	max-width: 600px;
+	text-align: left;
+	padding: 1rem;
+	font-family: "TT Interphases Pro TRL", sans-serif;
+}
+
+.textAbout h1 {
+	color: #6fa088;
+	font-size: 3.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.textAbout h2 {
+	font-size: 2rem;
+	margin-bottom: 0.8rem;
+	color: #555;
+}
+
+.textAbout h3 {
+	font-size: 1.5rem;
+	color: #777;
+	margin-bottom: 1.5rem;
+}
+
+.textAbout p {
+	font-size: 1.1rem;
+	line-height: 1.6;
+	color: #333;
+	text-align: justify;
+}
+
+.imageContainerAbout {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	background: #ffb71b;
+	padding: 3rem;
+	border-radius: 10px;
+}
+
+.imageContainerAbout img {
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainerAbout img:first-child {
+	width: 100%;
+	height: auto;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+.imageGrid {
+	display: flex;
+	gap: 1rem;
+	width: 100%;
+}
+
+.imageGrid img {
+	flex: 1;
+	height: 200px;
+	object-fit: cover;
+	width: 50%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+	.heroAbout {
+		flex-direction: column;
+		background: white;
+	}
+
+	.imageContainerAbout {
+		width: 100%;
+		text-align: center;
+	}
+
+	.imageGrid {
+		flex-direction: column;
+	}
 }
