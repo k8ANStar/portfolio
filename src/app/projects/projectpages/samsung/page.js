@@ -12,9 +12,10 @@ export default function SamsungProject() {
 					<div className={styles.imageContainer}>
 						<Image
 							src="/images/samsungad.svg"
-							alt="Print Magazine Design"
-							width={350}
-							height={500}
+							alt="Samsung Galaxy Earbuds2 Pro Digital Ad"
+							width={500} 
+							height={700} 
+							className={styles.projectImage} 
 						/>
 					</div>
 					<div className={styles.infoContainer}>

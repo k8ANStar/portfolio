@@ -2,8 +2,22 @@ import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
 import Image from "next/image";
-
+import Flipbook from "@/components/molecules/Flipbook";
 export default function PrintProject() {
+	const printMagazinePages = [
+		"/images/printcover.png",
+		"/images/print1.png",
+		"/images/print2.png",
+		"/images/print3.png",
+		"/images/print4.png",
+		"/images/print5.png",
+		"/images/print6.png",
+		"/images/print7.png",
+		"/images/print8.png",
+		"/images/print9.png",
+		"/images/print10.png",
+		"/images/print11.png",
+	];
 	return (
 		<>
 			<Header />
@@ -13,7 +27,7 @@ export default function PrintProject() {
 						<Image
 							src="/images/printmag.svg"
 							alt="Print Magazine Design"
-							width={300}
+							width={400}
 							height={600}
 						/>
 					</div>
@@ -22,13 +36,12 @@ export default function PrintProject() {
 						<h2 className={styles.headingTwo}>
 							Outdoor Space: Elements of Japanese Gardens
 						</h2>
+						<h3 className={styles.type}>Graphic Design</h3>
 						<p className={styles.paragraph}>
 							<strong>Timeline:</strong> 4 weeks
 						</p>
-						<p>
-							<strong>Role:</strong> UX and Graphic Designer
-						</p>
-						<p>
+
+						<p className={styles.paragraph}>
 							<strong>Tools:</strong> InDesign, Illustrator, Photoshop
 						</p>
 						<a
@@ -41,16 +54,22 @@ export default function PrintProject() {
 						</a>
 					</div>
 				</div>
-				<div className={styles.blurb}>
+				<div className={styles.info}>
 					<p>
-						This project involved designing a print magazine focused on the
-						elements of Japanese gardens. The goal was to create a visually
-						appealing and informative magazine that highlights the beauty and
-						tranquility of these outdoor spaces. The project required extensive
-						research, design skills, and attention to detail to ensure that the
-						final product was both aesthetically pleasing and informative.
+						Outdoor Spaces is a magazine that explores unique landscape designs.
+						This edition focuses on Japanese gardens, highlighting their use of
+						natural elements like stone, water, and plants to create peaceful
+						environments. From koi ponds to Zen rock gardens, this issue
+						showcases the key design principles that make these spaces timeless
+						and serene.
 					</p>
 				</div>
+				<h2 className={styles.magInteractive}>Interactive Magazine</h2>
+				<p className={styles.info}>
+					Click on the right page side to view the magazine. Click on the left
+					side page to go back.
+				</p>
+				<Flipbook images={printMagazinePages} />
 			</main>
 			<Footer />
 		</>

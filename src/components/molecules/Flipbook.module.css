@@ -1,0 +1,30 @@
+.bookContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.book {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.blankPage {
+    width: 600px;
+    height: 800px;
+    background-color: transparent;
+}
+
+.coverPage,
+.lastPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
