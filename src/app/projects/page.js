@@ -1,8 +1,9 @@
+// filepath: /Users/katelynstarchuk/Desktop/portfolio/src/app/projects/projectsHome.js
 import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import ProjectCard from "@/components/molecules/ProjectCard";
 
-export default function Projects() {
+export default function ProjectsHome() {
 	return (
 		<>
 			<Header />
@@ -16,22 +17,35 @@ export default function Projects() {
 				}}
 			>
 				<ProjectCard
-					image="/printmag.png"
-					title="Print Magaizine Design"
+					href="/projects/projectpages/print"
+					image="/images/printmag.png"
+					title="Print Magazine Design"
 					type="Graphic Design"
 					date="October 2024"
 				/>
+
 				<ProjectCard
-					image="/samsungad.png"
+					href="/projects/projectpages/samsung"
+					image="/images/samsungad.png"
 					title="Samsung Ad Campaign"
 					type="Graphic Design"
 					date="November 2024"
 				/>
+
 				<ProjectCard
-					image="/vitamind.png"
+					href="/projects/projectpages/vitamind"
+					image="/images/vitamind.png"
 					title="Benefits of Vitamin D"
 					type="Motion Graphics"
-					date=" March-May 2024"
+					date="March-May 2024"
+				/>
+
+				<ProjectCard
+					href="/projects/projectpages/space"
+					image="/images/spacehero.png"
+					title="Cosmos Magazine Design"
+					type="Graphic Design"
+					date="March 2024"
 				/>
 			</main>
 			<Footer />

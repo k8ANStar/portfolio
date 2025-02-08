@@ -28,10 +28,10 @@ export default function About() {
 						</p>
 					</div>
 					<div className={styles.imageContainerAbout}>
-						<img src="/katelyn2.jpg" alt="Kate's Portrait" />
+						<img src="/images/katelyn2.jpg" alt="Kate's Portrait" />
 						<div className={styles.imageGrid}>
-							<img src="/katelyn3.jpg" alt="Kate's Portrait" />
-							<img src="/katelyn.png" alt="Kate's Portrait" />
+							<img src="/images/katelyn3.jpg" alt="Kate's Portrait" />
+							<img src="/images/katelyn.png" alt="Kate's Portrait" />
 						</div>
 					</div>
 				</section>
