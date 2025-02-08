@@ -1,8 +1,24 @@
 import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
+import Image from "next/image";
 
 export default function VitaminProject() {
+	const assets = [
+		"/images/cheese.svg",
+		"/images/Fish.svg",
+		"/images/Milk.svg",
+		"/images/Egg.svg",
+		"/images/brocoli.svg",
+		"/images/Bone.svg",
+		"/images/fridge.svg",
+		"/images/Picture.svg",
+		"/images/Bed.svg",
+		"/images/Window1.svg",
+		"/images/Window2.svg",
+		"/images/Bookshelft.svg",
+	];
+
 	return (
 		<>
 			<Header />
@@ -15,7 +31,6 @@ export default function VitaminProject() {
 							width={800}
 							height={500}
 							controls
-							autoPlay
 							loop
 						/>
 					</div>
@@ -54,6 +69,108 @@ export default function VitaminProject() {
 						</p>
 					</p>
 					<h2 className={styles.process}>Creative Process</h2>
+					<h4>Color Palette</h4>
+					{/* Color Palette */}
+					<div className={styles.colorPalette}>
+						<div
+							className={styles.color}
+							style={{ backgroundColor: "#313D39" }}
+						></div>
+						<div
+							className={styles.color}
+							style={{ backgroundColor: "#435A52" }}
+						></div>
+						<div
+							className={styles.color}
+							style={{ backgroundColor: "#90A182" }}
+						></div>
+						<div
+							className={styles.color}
+							style={{ backgroundColor: "#7A9991" }}
+						></div>
+						<div
+							className={styles.color}
+							style={{ backgroundColor: "#C3DDD4" }}
+						></div>
+						<div
+							className={styles.color}
+							style={{ backgroundColor: "#955A80" }}
+						></div>
+						<div
+							className={styles.color}
+							style={{ backgroundColor: "#9C6D5C" }}
+						></div>
+					</div>
+
+					<h4>Concept Drawings</h4>
+					<div className={styles.conceptDrawings}>
+						<Image
+							src="/images/vitconcept1.jpg"
+							alt="Concept Drawing 1"
+							width={400}
+							height={300}
+						/>
+						<Image
+							src="/images/vitconcept2.jpg"
+							alt="Concept Drawing 2"
+							width={400}
+							height={300}
+						/>
+						<Image
+							src="/images/vitconcept3.jpg"
+							alt="Concept Drawing 3"
+							width={400}
+							height={300}
+						/>
+						<Image
+							src="/images/vitconcept4.jpg"
+							alt="Concept Drawing 4"
+							width={400}
+							height={300}
+						/>
+						<Image
+							src="/images/vitconcept5.jpg"
+							alt="Concept Drawing 5"
+							width={400}
+							height={300}
+						/>
+						<Image
+							src="/images/vitconcept6.jpg"
+							alt="Concept Drawing 6"
+							width={400}
+							height={300}
+						/>
+					</div>
+
+					<h4>Assets</h4>
+					<div className={styles.assets}>
+						{assets.map((asset, index) => (
+							<div key={index} className={styles.asset}>
+								<Image
+									src={asset}
+									alt={`Asset ${index + 1}`}
+									width={200}
+									height={200}
+								/>
+							</div>
+						))}
+					</div>
+
+					<h4>Mockups</h4>
+					<div className={styles.mockup}>
+						<Image
+							src="/images/vitamind.png"
+							alt="mockup 1 desktop"
+							width={800}
+							height={500}
+						/>
+						<Image
+							src="/images/vitmockup1.svg"
+							alt="mockup 2 ipad"
+							width={800}
+							height={500}
+						/>
+					</div>
 				</div>
 			</main>
 			<Footer />

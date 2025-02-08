@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.59 459.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c3ddd5;
+      }
+
+      .cls-2 {
+        fill: #97c1b4;
+        stroke: #232d29;
+        stroke-width: 2.64px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #72a592;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #455b55;
+        stroke-width: .88px;
+      }
+
+      .cls-5 {
+        fill: #455b55;
+      }
+
+      .cls-6 {
+        fill: #303d39;
+      }
+    </style>
+  </defs>
+  <g id="Picture">
+    <g id="Picture-2" data-name="Picture">
+      <rect class="cls-2" x="1.32" y="73.79" width="227.95" height="384.68"/>
+      <circle class="cls-5" cx="115.3" cy="8.07" r="8.07"/>
+      <polyline class="cls-3" points="1.32 73.79 107.22 8.07 123.37 8.07 229.27 73.79"/>
+      <circle class="cls-1" cx="59.87" cy="134.79" r="32.69"/>
+      <polygon class="cls-4" points="227.79 244.27 192.75 203.4 152.83 237.62 115.27 224.66 59.11 259.19 2.75 285.14 2.75 434.46 227.79 434.46 227.79 244.27"/>
+      <polygon class="cls-5" points="2.6 319.96 33.25 291.42 55.54 302.07 84.8 262.45 114.05 298.66 140.06 280.24 193 300.79 228.08 311.68 228.08 457.59 2.6 457.59 2.6 319.96"/>
+      <polygon class="cls-6" points="228.08 365.83 201.3 341.84 178.29 380.94 155.28 365.83 123.25 341.84 100.96 371.57 74.18 357.9 2.44 389.82 2.44 457.74 228.08 457.74 228.08 365.83"/>
+    </g>
+  </g>
+</svg>

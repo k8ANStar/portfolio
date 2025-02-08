@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 259.23 925.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #315942;
+      }
+
+      .cls-2 {
+        fill: #799991;
+      }
+
+      .cls-3 {
+        fill: #354439;
+      }
+
+      .cls-4 {
+        fill: #2c6353;
+      }
+
+      .cls-5 {
+        fill: #4e724c;
+      }
+
+      .cls-6 {
+        fill: #455b55;
+      }
+
+      .cls-7 {
+        fill: #658274;
+      }
+    </style>
+  </defs>
+  <g id="Bookshelf">
+    <g id="Bookshelft">
+      <rect class="cls-2" width="259.23" height="925.2"/>
+      <rect class="cls-6" x="31.91" y="36.79" width="195.42" height="195.42"/>
+      <rect class="cls-6" x="31.91" y="267.18" width="195.42" height="195.42"/>
+      <rect class="cls-6" x="31.91" y="497.57" width="195.42" height="195.42"/>
+      <rect class="cls-6" x="31.91" y="727.95" width="195.42" height="195.42"/>
+      <rect class="cls-4" x="166.93" y="102.2" width="18.81" height="129.25"/>
+      <rect class="cls-1" x="51.44" y="313.9" width="7.35" height="149.81" transform="translate(89.4 -2.39) rotate(13.08)"/>
+      <rect class="cls-3" x="144.62" y="82.82" width="7.35" height="149.81" transform="translate(39.53 -29.46) rotate(13.08)"/>
+      <rect class="cls-4" x="130.72" y="321.85" width="24.81" height="139.71"/>
+      <rect class="cls-7" x="103.73" y="329.47" width="24.81" height="132.23"/>
+      <rect class="cls-1" x="108.25" y="91.3" width="18.53" height="139.71"/>
+      <rect class="cls-7" x="80.55" y="99.17" width="24.81" height="132.23"/>
+      <rect class="cls-5" x="76.29" y="309.2" width="24.81" height="153.15"/>
+      <rect class="cls-5" x="198.37" y="331.07" width="25.62" height="129.25"/>
+      <rect class="cls-3" x="108.31" y="562.97" width="25.62" height="129.25" transform="translate(46.75 -7.24) rotate(4.24)"/>
+      <rect class="cls-4" x="203.75" y="562.63" width="21.94" height="129.25"/>
+      <rect class="cls-3" x="157.4" y="331.27" width="37.63" height="129.25"/>
+      <rect class="cls-4" x="44.21" y="560.76" width="26.57" height="129.91" transform="translate(-116.48 21.93) rotate(-10.82)"/>
+      <rect class="cls-7" x="187.48" y="101.76" width="37.63" height="129.25"/>
+      <rect class="cls-3" x="178.07" y="553.07" width="24.81" height="139.71"/>
+      <rect class="cls-1" x="164.1" y="560.19" width="12.41" height="132.23"/>
+      <rect class="cls-7" x="138.34" y="539.51" width="24.81" height="153.15"/>
+      <rect class="cls-4" x="103.56" y="793.18" width="25.62" height="129.25" transform="translate(295.88 1704.65) rotate(175.76)"/>
+      <rect class="cls-1" x="34.61" y="783.27" width="24.81" height="139.71" transform="translate(94.03 1706.25) rotate(-180)"/>
+      <rect class="cls-3" x="60.99" y="790.39" width="12.41" height="132.23" transform="translate(134.38 1713.01) rotate(-180)"/>
+      <rect class="cls-5" x="74.34" y="769.71" width="24.81" height="153.15" transform="translate(173.5 1692.58) rotate(-180)"/>
+      <rect class="cls-1" x="175.18" y="775.34" width="7.35" height="149.81" transform="translate(197.01 -18.42) rotate(13.08)"/>
+      <rect class="cls-7" x="200.02" y="770.65" width="24.81" height="153.15"/>
+    </g>
+  </g>
+</svg>
