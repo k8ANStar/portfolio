@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421 420">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #897211;
+      }
+
+      .cls-2 {
+        fill: #bfa613;
+        stroke: #110e01;
+        stroke-miterlimit: 10;
+        stroke-width: 16px;
+      }
+    </style>
+  </defs>
+  <g id="FInding_Candy_Screen" data-name="FInding Candy Screen">
+    <g id="moon">
+      <ellipse class="cls-2" cx="210.5" cy="210" rx="202.5" ry="202"/>
+      <polygon class="cls-1" points="94 80.72 60 135.7 89 209 144 206.38 177 173.66 252 121.96 235 86.61 169 48 94 80.72"/>
+      <polygon class="cls-1" points="239.25 214.92 236.37 175.02 198.87 141.8 174.83 158.06 170.77 185.25 154 234.36 173.45 249.56 216.17 253.41 239.25 214.92"/>
+      <polygon class="cls-1" points="306.59 357.22 336.38 329.37 354.49 279.47 337.56 271.63 316.12 286.01 275.59 304.82 267.74 329.39 272.94 364.39 306.59 357.22"/>
+    </g>
+  </g>
+</svg>

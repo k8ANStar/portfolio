@@ -39,9 +39,23 @@ export default function ProjectsHome() {
 					type="Motion Graphics"
 					date="March-May 2024"
 				/>
+				<ProjectCard
+					href="/projects/projectpages/halloween"
+					image="/images/halloweencover.png"
+					title="Children's Digital Book"
+					type="Graphic Design"
+					date="October-December 2024"
+				/>
 
 				<ProjectCard
 					href="/projects/projectpages/space"
+					image="/images/spacehero.png"
+					title="Cosmos Magazine Design"
+					type="Graphic Design"
+					date="March 2024"
+				/>
+				<ProjectCard
+					href="/projects/projectpages/civica"
 					image="/images/spacehero.png"
 					title="Cosmos Magazine Design"
 					type="Graphic Design"

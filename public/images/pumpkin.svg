@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 716.29 584.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f15200;
+      }
+
+      .cls-2 {
+        fill: #57422a;
+      }
+
+      .cls-3 {
+        fill: #ff5f00;
+      }
+
+      .cls-4 {
+        fill: #ca4700;
+      }
+    </style>
+  </defs>
+  <g id="Searching_Patch_Screen" data-name="Searching Patch Screen">
+    <g id="pumpkin">
+      <ellipse class="cls-4" cx="281.69" cy="348.58" rx="184.17" ry="206.2"/>
+      <ellipse class="cls-4" cx="406.93" cy="348.58" rx="184.17" ry="206.2"/>
+      <ellipse class="cls-1" cx="532.12" cy="368.22" rx="184.17" ry="206.2"/>
+      <ellipse class="cls-1" cx="185.26" cy="369.45" rx="185.26" ry="207.43"/>
+      <path class="cls-2" d="M371.69,132.56s-17.18-88.37,22.09-110.47L256.32,0l63.83,206.2h73.64l-22.09-73.64Z"/>
+      <ellipse class="cls-3" cx="355.74" cy="380.5" rx="181.97" ry="203.75"/>
+    </g>
+  </g>
+</svg>
