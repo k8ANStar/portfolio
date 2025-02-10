@@ -55,24 +55,22 @@ export default function HalloweenProject() {
 				</div>
 				<div className={styles.info}>
 					<p>
-						The Benefits of Vitamin D is an informative video that follows the
-						story of Jess, who is struggling with a vitamin D deficiency.
-						Throughout the video, we explore how this essential nutrient affects
-						overall health and show various ways Jess can obtain vitamin D to
-						improve her well-being, from diet changes to safe sun exposure.
+						The Halloween Helpers is an interactive children's digital book that
+						teaches the importance of helping others and sharing. The story
+						follows three friends—a witch, a ghost, and a pumpkin-head—who
+						assist a scarecrow, a vampire, and a werewolf with their challenges.
+						In the end, they discover a treasure of candy and share it together.
 						<p>
-							To make the information accessible and engaging, the video uses
-							simple animations and clear visuals to illustrate these concepts,
-							following Jess's journey in a relatable way. The production
-							process was streamlined to allow for efficient development, with
-							each segment being built in parallel to maintain clarity and
-							ensure a steady workflow.
+							To keep the story engaging and accessible, interactive elements
+							and simple animations guide young readers through the
+							adventure.The design process focused on balancing education with
+							entertainment, ensuring an intuitive experience that encourages
+							participation.
 						</p>
 						<p>
-							The final result is an engaging, educational resource that
-							empowers viewers to understand how to incorporate vitamin D into
-							their daily routines, just like Jess, for improved health and
-							vitality.
+							The final result is a fun and educational digital book that
+							reinforces positive social values through an engaging
+							Halloween-themed story.
 						</p>
 					</p>
 					<h2 className={styles.process}>Creative Process</h2>
