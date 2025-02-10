@@ -14,8 +14,9 @@
 .imageContainer {
 	width: 40%;
 	align-self: center;
-	padding-left: 5rem;
+	padding-left: 8rem;
 	padding-right: 5rem;
+	margin-left: 2rem;
 }
 
 .personaContainer {
@@ -94,10 +95,7 @@
 	padding-bottom: 0.8rem;
 }
 
-.imgCont {
-	background-color: #feb81a;
-	border: 2px solid #feb81a;
-}
+
 
 .caseContainer {
 	margin-left: 7rem;
@@ -115,4 +113,9 @@
 	height: 50px;
 	border-radius: 8px;
 	margin-right: 10px;
+}
+
+.fid {
+	display: flex;
+	justify-content: space-around;
 }

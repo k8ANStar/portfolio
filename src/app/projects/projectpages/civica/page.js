@@ -4,7 +4,7 @@ import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
 import Image from "next/image";
 import ImageCarousel from "@/components/molecules/ImageCarousel";
-
+import ImageComparisonSlider from "@/components/molecules/ImageComparisonSlider";
 export default function CivicaProject() {
 	const surveyImages = [
 		"/images/surveyresults1.png",
@@ -41,6 +41,11 @@ export default function CivicaProject() {
 		"/images/case5.png",
 		"/images/case6.png",
 		"/images/case7.png",
+	];
+	const testingImages = [
+		"/images/civicausability1.png",
+		"/images/civicausability2.png",
+		"/images/civicausability3.png",
 	];
 	return (
 		<>
@@ -131,7 +136,6 @@ export default function CivicaProject() {
 				</div>
 				<h2 className={styles.headings}>Challenges</h2>
 				<h3 className={styles.subHeading}>
-					{" "}
 					Designing Civica required addressing the following challenges
 				</h3>
 				<div className={styles.container}>
@@ -216,6 +220,30 @@ export default function CivicaProject() {
 						/>
 					</div>
 				</div>
+				<h2 className={styles.headings}>My Role in Civica's Development</h2>
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p>
+							During the development of Civica, I focused on building its
+							document scanning feature, which was one of the app's core
+							functionalities. This feature allowed users to scan and upload
+							legal documents, enabling AI to extract key information and
+							provide relevant legal resources. I implemented the scanning
+							logic, optimized image processing for accuracy, and ensured
+							seamless integration with the app's legal guidance system. The
+							goal was to create a fast, reliable, and user-friendly experience
+							for individuals seeking legal support.
+						</p>
+					</div>
+					<div className={styles.imageContainer}>
+						<Image
+							src="/images/phone.webp"
+							alt="Civica App Mockup"
+							width={260}
+							height={400}
+						/>
+					</div>
+				</div>
 				<h2 className={styles.headings}>Research</h2>
 				<h3 className={styles.subHeading}>Cases</h3>
 				<div className={styles.caseContainer}>
@@ -231,9 +259,12 @@ export default function CivicaProject() {
 				</div>
 				<h3 className={styles.subHeading}>Survey Results</h3>
 				<div className={styles.compContainer}>
-					<ImageCarousel images={surveyImages} className={styles.imgCont} />
+					<ImageCarousel images={surveyImages} />
 				</div>
-
+				<h3 className={styles.subHeading}>Usability Testing</h3>
+				<div className={styles.testingContainer}>
+					<ImageCarousel images={testingImages} />
+				</div>
 				<h2 className={styles.headings}>Design Process</h2>
 				<h3 className={styles.subHeading}>Color Palettes</h3>
 				<h4 className={styles.miniHeading}>First Iteration</h4>
@@ -305,7 +336,61 @@ export default function CivicaProject() {
 					height={350}
 				/>
 				<h3 className={styles.subHeading}>Wireframes</h3>
-				
+				<div className={styles.fid}>
+					<h4>Low Fidelity Prototype</h4>
+					<h4>High Fidelity Prototype</h4>
+				</div>
+
+				<ImageComparisonSlider
+					beforeImage="/images/civicawireframes1.png"
+					afterImage="/images/civicawireframes2.png"
+				/>
+
+				<h2 className={styles.headings}>Key Takeaways</h2>
+
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p>
+							<ul>
+								<li className={styles.list}>
+									<strong>Understanding User Needs:</strong> Conducting research
+									on legal challenges faced by women, particularly in workplace
+									exploitation, domestic violence, and immigration issues,
+									helped shape the app's features.
+								</li>
+								<li className={styles.list}>
+									<strong>AI Integration for Legal Assistance: </strong>
+									Implementing AI-driven guidance to assist users in
+									understanding legal rights and next steps.
+								</li>
+								<li className={styles.list}>
+									<strong>Accessibility & Usability:</strong> Prioritizing a
+									simple, intuitive UI to ensure accessibility for all users,
+									including those with limited tech experience.
+								</li>
+
+								<li className={styles.list}>
+									<strong>Privacy & Security Considerations:</strong> Ensuring
+									the document scanning and storage process adhered to data
+									protection best practices.
+								</li>
+								<li className={styles.list}>
+									<strong>Scalability & Future Growth:</strong> Designing Civica
+									to accommodate future expansions, such as additional legal
+									resources and multilingual support.
+								</li>
+							</ul>
+						</p>
+					</div>
+					<div className={styles.imageContainer}>
+						<Image
+							src="/images/mockup-lap.webp"
+							alt="Civica App Mockup"
+							width={700}
+							height={500}
+						/>
+					</div>
+				</div>
 			</main>
 
 			<Footer />

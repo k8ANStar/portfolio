@@ -1,0 +1,53 @@
+.sliderContainer {
+	margin-left: 3rem;
+	position: relative;
+	width: 100%;
+	max-width: 1100px; /* Adjust as needed */
+	height: 600px; /* Adjust as needed */
+	overflow: hidden;
+	border: 1px solid #ccc; /* Optional: Add a border for the frame */
+}
+
+.beforeImage,
+.afterImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.beforeImage {
+	z-index: 2; /* Ensure the before image is on top */
+}
+
+.afterImage {
+	z-index: 1; /* Ensure the after image is below the before image */
+}
+
+.beforeImage img,
+.afterImage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.sliderHandle {
+	position: absolute;
+	top: 0;
+	width: 20px;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 3;
+	cursor: ew-resize;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sliderIcon {
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 50%;
+}
