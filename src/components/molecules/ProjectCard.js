@@ -1,9 +1,13 @@
-import Link from "next/link";
+"use client";
 import styles from "./ProjectCard.module.css";
+import styled from "styled-components";
 
 export default function ProjectCard({ href, image, title, type, date }) {
+	const StyledLink = styled.a`
+		text-decoration: none;
+	`;
 	return (
-		<Link href={href} passHref>
+		<StyledLink href={href}>
 			<div className={styles.card}>
 				<img src={image} alt={title} className={styles.image} />
 				<div className={styles.info}>
@@ -12,6 +16,6 @@ export default function ProjectCard({ href, image, title, type, date }) {
 					<p className={styles.date}>{date}</p>
 				</div>
 			</div>
-		</Link>
+		</StyledLink>
 	);
 }

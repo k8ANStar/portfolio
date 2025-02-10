@@ -1,4 +1,5 @@
 .header {
+	position: sticky;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -6,12 +7,13 @@
 	background: #fff;
 	font-family: "TT Interphases Pro TRL", sans-serif;
 	text-decoration: none;
+	top: 0;
+	z-index: 1000;
 }
 
 .logoContainer {
 	display: flex;
 	align-items: center;
-	
 }
 
 .logo {
@@ -24,7 +26,6 @@
 	display: flex;
 	flex-direction: column;
 	font-size: 2rem;
-
 	color: black;
 }
 
@@ -38,7 +39,6 @@
 }
 
 .nav {
-	
 	display: flex;
 	gap: 2rem;
 }
@@ -50,9 +50,13 @@
 	transition: font-weight 0.2s;
 }
 
+.navLink:hover {
+	color: #6fa088;
+	font-weight: bold;
+}
+
 .navLink:hover,
 .navLink:active {
 	color: #6fa088;
 	font-weight: bold;
-	
 }

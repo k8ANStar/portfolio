@@ -43,6 +43,14 @@ export default function HalloweenProject() {
 						<p className={styles.paragraph}>
 							<strong>Tools:</strong> Indesign, Illustrator
 						</p>
+						<a
+							href="https://indd.adobe.com/view/c65c131f-c4b0-4d42-890a-f0dc563f98ce"
+							className={styles.chip}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							View Digital Version
+						</a>
 					</div>
 				</div>
 				<div className={styles.info}>
@@ -116,7 +124,124 @@ export default function HalloweenProject() {
 					</div>
 
 					<h4>Concept Drawings</h4>
-					<div className={styles.conceptDrawings}>{/* Concept Drawings */}</div>
+					<div className={styles.conceptDrawings}>
+						{/* Concept Drawings */}
+
+						<Image
+							src="/images/hallowconcept1.png"
+							alt="Concept Drawing 1"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept2.png"
+							alt="Concept Drawing 2"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept3.png"
+							alt="Concept Drawing 3"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept4.png"
+							alt="Concept Drawing 4"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept5.png"
+							alt="Concept Drawing 5"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept6.png"
+							alt="Concept Drawing 6"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept7.png"
+							alt="Concept Drawing 7"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept8.png"
+							alt="Concept Drawing 8"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept9.png"
+							alt="Concept Drawing 9"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept10.png"
+							alt="Concept Drawing 10"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept11.png"
+							alt="Concept Drawing 11"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept12.png"
+							alt="Concept Drawing 12"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept13.png"
+							alt="Concept Drawing 13"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept14.png"
+							alt="Concept Drawing 14"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept15.png"
+							alt="Concept Drawing 15"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept16.png"
+							alt="Concept Drawing 16"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept17.png"
+							alt="Concept Drawing 17"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept18.png"
+							alt="Concept Drawing 18"
+							width={300}
+							height={200}
+						/>
+						<Image
+							src="/images/hallowconcept19.png"
+							alt="Concept Drawing 19"
+							width={300}
+							height={200}
+						/>
+					</div>
 					<h4>Storyboard Breakdown</h4>
 					<div className={styles.conceptDrawings}>
 						<Image

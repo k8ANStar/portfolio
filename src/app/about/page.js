@@ -8,7 +8,7 @@ export default function About() {
 			<main>
 				<section className={styles.heroAbout}>
 					<div className={styles.textAbout}>
-						<h1>I'm Kate Starchuk</h1>
+						<h1>I'm Kate!</h1>
 						<h2>UX/UI Designer | Frontend Developer </h2>
 						<h3>Vancouver, BC</h3>
 						<p>
@@ -25,6 +25,7 @@ export default function About() {
 								ensuring that products are not just visually appealing but also
 								accessible to all. Let's create designs that make a difference.
 							</p>
+							<p> </p>
 						</p>
 					</div>
 					<div className={styles.imageContainerAbout}>

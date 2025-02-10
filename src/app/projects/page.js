@@ -1,4 +1,3 @@
-// filepath: /Users/katelynstarchuk/Desktop/portfolio/src/app/projects/projectsHome.js
 import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import ProjectCard from "@/components/molecules/ProjectCard";
@@ -17,24 +16,22 @@ export default function ProjectsHome() {
 				}}
 			>
 				<ProjectCard
+					href="/projects/projectpages/civica"
+					image="/images/civicacover.png"
+					title="Civica Case Study"
+					type="UX/UI Design"
+					date="September - December 2024"
+				/>
+				<ProjectCard
 					href="/projects/projectpages/print"
 					image="/images/printmag.png"
 					title="Print Magazine Design"
 					type="Graphic Design"
 					date="October 2024"
 				/>
-
-				<ProjectCard
-					href="/projects/projectpages/samsung"
-					image="/images/samsungad.png"
-					title="Samsung Ad Campaign"
-					type="Graphic Design"
-					date="November 2024"
-				/>
-
 				<ProjectCard
 					href="/projects/projectpages/vitamind"
-					image="/images/vitamind.png"
+					image="/images/vitamindcover.png"
 					title="Benefits of Vitamin D"
 					type="Motion Graphics"
 					date="March-May 2024"
@@ -46,7 +43,6 @@ export default function ProjectsHome() {
 					type="Graphic Design"
 					date="October-December 2024"
 				/>
-
 				<ProjectCard
 					href="/projects/projectpages/space"
 					image="/images/spacehero.png"
@@ -55,11 +51,11 @@ export default function ProjectsHome() {
 					date="March 2024"
 				/>
 				<ProjectCard
-					href="/projects/projectpages/civica"
-					image="/images/spacehero.png"
-					title="Cosmos Magazine Design"
+					href="/projects/projectpages/samsung"
+					image="/images/samsungcover.png"
+					title="Samsung Ad Campaign"
 					type="Graphic Design"
-					date="March 2024"
+					date="November 2024"
 				/>
 			</main>
 			<Footer />

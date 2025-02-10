@@ -14,18 +14,17 @@ export default function Header() {
 					<span className={styles.lastName}>Starchuk</span>
 				</div>
 			</div>
+
 			<nav className={styles.nav}>
-				<nav className={styles.nav}>
-					<Link href="/" className={styles.navLink}>
-						Home
-					</Link>
-					<Link href="/projects" className={styles.navLink}>
-						Projects
-					</Link>
-					<Link href="/about" className={styles.navLink}>
-						About
-					</Link>
-				</nav>
+				<Link href="/" className={styles.navLink}>
+					Home
+				</Link>
+				<Link href="/projects" className={styles.navLink}>
+					Projects
+				</Link>
+				<Link href="/about" className={styles.navLink}>
+					About
+				</Link>
 			</nav>
 		</header>
 	);

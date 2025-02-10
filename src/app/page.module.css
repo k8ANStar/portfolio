@@ -1,3 +1,8 @@
+.main {
+	text-decoration: none !important;
+	padding: 2rem;
+}
+
 .home {
 	display: flex;
 	flex-direction: column;
@@ -49,22 +54,24 @@
 	justify-content: center;
 }
 
-.collageContainer {
-	width: 80%;
-	height: 400px;
-	overflow: hidden;
-	border-radius: 15px;
-	position: relative;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 .collage {
-	width: 200%;
-	height: 200%;
-	background-image: url("/collage.jpg");
-	background-size: cover;
+	width: 50%;
+	height: 80vh;
 	position: absolute;
 	animation: moveCollage 15s linear infinite alternate;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.collage img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin: 5px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes moveCollage {
@@ -175,4 +182,30 @@
 	.imageGrid {
 		flex-direction: column;
 	}
+}
+
+.showcaseContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 2rem;
+}
+
+.showcase {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+.heading {
+	font-family: "TT Interphases Pro TRL", sans-serif;
+	text-align: end;
+	margin-top: 1rem;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	color: black;
 }
