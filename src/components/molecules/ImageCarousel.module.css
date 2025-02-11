@@ -1,20 +1,38 @@
 .carouselContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
 }
 
 .imageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid  #6fa088;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #6fa088;
+	position: relative;
 }
 
 .arrow {
-    background: none;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
+	background-color: #6fa088;
+	color: white;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding: 0.8rem;
+	border-radius: 50%;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.arrow:hover {
+	background-color: #4a705e;
+	transform: scale(1.1);
+}
+
+.arrow:active {
+	background-color: #3a5648;
+	transform: scale(1);
 }

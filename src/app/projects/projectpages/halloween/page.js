@@ -1,8 +1,9 @@
+"use client";
 import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
 import Image from "next/image";
-
+import ImageCarousel from "@/components/molecules/ImageCarousel";
 export default function HalloweenProject() {
 	const assets = [
 		"/images/tree.svg",
@@ -18,6 +19,12 @@ export default function HalloweenProject() {
 		"/images/Scarecrow.svg",
 		"/images/Vampire.svg",
 		"/images/Werewolf.svg",
+	];
+
+	const storyboardImages = [
+		"/images/storyboard1.png",
+		"/images/storyboard2.png",
+		"/images/storyboard3.png",
 	];
 
 	return (
@@ -241,25 +248,8 @@ export default function HalloweenProject() {
 						/>
 					</div>
 					<h4>Storyboard Breakdown</h4>
-					<div className={styles.conceptDrawings}>
-						<Image
-							src="/images/storyboard1.png"
-							alt="storyboard"
-							width={600}
-							height={800}
-						/>
-						<Image
-							src="/images/storyboard2.png"
-							alt="storyboard"
-							width={600}
-							height={800}
-						/>
-						<Image
-							src="/images/storyboard3.png"
-							alt="storyboard"
-							width={600}
-							height={800}
-						/>
+					<div className={styles.storyboard}>
+						<ImageCarousel images={storyboardImages} />
 					</div>
 					<h4>Assets</h4>
 					<div className={styles.assets}>

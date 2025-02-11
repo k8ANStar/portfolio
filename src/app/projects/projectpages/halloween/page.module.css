@@ -118,3 +118,11 @@
 .chip:hover {
 	background-color: #23572f;
 }
+
+.storyboard {
+	width:40rem;
+	height: 50rem;
+	display: flex;
+	justify-content: center;
+	margin-left: 7rem;
+}

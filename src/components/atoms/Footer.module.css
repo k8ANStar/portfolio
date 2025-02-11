@@ -1,8 +1,9 @@
 .footer {
-	padding: 2rem;
+	padding: 2rem 0;
 	background: #aed1c0;
 	font-family: "TT Interphases Pro TRL", sans-serif;
-	height: 1.5in;
+
+	text-align: center;
 }
 
 .footer h2 {
@@ -16,13 +17,18 @@
 
 .icons {
 	display: flex;
-	gap: 1.5rem;
+	gap: 1rem;
 	font-size: 1.5rem;
+	justify-content: center;
+	display: flex;
+	text-align: justify;
 }
 
 .icons a {
 	color: black;
 	text-decoration: none;
+	display: flex;
+	align-items: center;
 }
 
 .created {

@@ -26,7 +26,7 @@ export default function CivicaProject() {
 		"/images/compan5.png",
 		"/images/compan6.png",
 		"/images/compan7.png",
-		"/images/compan18.png",
+		"/images/compan8.png",
 	];
 	const personaImages = [
 		"/images/civicaPersona1.png",
@@ -140,29 +140,27 @@ export default function CivicaProject() {
 				</h3>
 				<div className={styles.container}>
 					<div className={styles.info}>
-						<p>
-							<ul>
-								<li className={styles.list}>
-									<strong>User-Centric Design:</strong> The app needed to be
-									intuitive for users with varying levels of tech literacy.
-								</li>
-								<li className={styles.list}>
-									<strong>Inclusive Content: </strong>Resources had to cater to
-									diverse legal needs, including labor laws, domestic abuse, and
-									immigration issues.
-								</li>
-								<li className={styles.list}>
-									<strong>Trust and Accessibility:</strong> Building trust
-									through design elements while maintaining simplicity for a
-									non-intimidating experience.
-								</li>
+						<ul>
+							<li className={styles.list}>
+								<strong>User-Centric Design:</strong> The app needed to be
+								intuitive for users with varying levels of tech literacy.
+							</li>
+							<li className={styles.list}>
+								<strong>Inclusive Content: </strong>Resources had to cater to
+								diverse legal needs, including labor laws, domestic abuse, and
+								immigration issues.
+							</li>
+							<li className={styles.list}>
+								<strong>Trust and Accessibility:</strong> Building trust through
+								design elements while maintaining simplicity for a
+								non-intimidating experience.
+							</li>
 
-								<li className={styles.list}>
-									<strong>Limited Budget:</strong> Developing a cost-efficient
-									solution for users who could not afford traditional legal aid.
-								</li>
-							</ul>
-						</p>
+							<li className={styles.list}>
+								<strong>Limited Budget:</strong> Developing a cost-efficient
+								solution for users who could not afford traditional legal aid.
+							</li>
+						</ul>
 					</div>
 					<div className={styles.imageContainer}>
 						<Image
@@ -179,37 +177,35 @@ export default function CivicaProject() {
 				</h3>
 				<div className={styles.container}>
 					<div className={styles.info}>
-						<p>
-							<ul>
-								<li className={styles.list}>
-									<strong>User Personas:</strong> Developed based on in-depth
-									research, personas highlighted the specific needs of users
-									like immigrant women or live-in caregivers.
-								</li>
-								<li className={styles.list}>
-									<strong>Visual Design:</strong> A calming color palette,
-									rounded UI elements, and clear typography were chosen to
-									create a welcoming environment.
-								</li>
-								<li className={styles.list}>
-									<strong>Step-by-Step Guides:</strong> Interactive,
-									plain-language guides were implemented for common legal
-									issues, with visual cues and tooltips to assist navigation.
-								</li>
+						<ul>
+							<li className={styles.list}>
+								<strong>User Personas:</strong> Developed based on in-depth
+								research, personas highlighted the specific needs of users like
+								immigrant women or live-in caregivers.
+							</li>
+							<li className={styles.list}>
+								<strong>Visual Design:</strong> A calming color palette, rounded
+								UI elements, and clear typography were chosen to create a
+								welcoming environment.
+							</li>
+							<li className={styles.list}>
+								<strong>Step-by-Step Guides:</strong> Interactive,
+								plain-language guides were implemented for common legal issues,
+								with visual cues and tooltips to assist navigation.
+							</li>
 
-								<li className={styles.list}>
-									<strong>Resource Connectivity:</strong> Links to regional
-									helplines and women's rights organizations were seamlessly
-									integrated into the app for immediate support.
-								</li>
+							<li className={styles.list}>
+								<strong>Resource Connectivity:</strong> Links to regional
+								helplines and women's rights organizations were seamlessly
+								integrated into the app for immediate support.
+							</li>
 
-								<li className={styles.list}>
-									<strong>Technology Stack:</strong> The front end was built
-									using React Native for cross-platform functionality, ensuring
-									the app was accessible on both iOS and Android.
-								</li>
-							</ul>
-						</p>
+							<li className={styles.list}>
+								<strong>Technology Stack:</strong> The front end was built using
+								React Native for cross-platform functionality, ensuring the app
+								was accessible on both iOS and Android.
+							</li>
+						</ul>
 					</div>
 					<div className={styles.imageContainer}>
 						<Image
@@ -350,37 +346,35 @@ export default function CivicaProject() {
 
 				<div className={styles.container}>
 					<div className={styles.info}>
-						<p>
-							<ul>
-								<li className={styles.list}>
-									<strong>Understanding User Needs:</strong> Conducting research
-									on legal challenges faced by women, particularly in workplace
-									exploitation, domestic violence, and immigration issues,
-									helped shape the app's features.
-								</li>
-								<li className={styles.list}>
-									<strong>AI Integration for Legal Assistance: </strong>
-									Implementing AI-driven guidance to assist users in
-									understanding legal rights and next steps.
-								</li>
-								<li className={styles.list}>
-									<strong>Accessibility & Usability:</strong> Prioritizing a
-									simple, intuitive UI to ensure accessibility for all users,
-									including those with limited tech experience.
-								</li>
+						<ul>
+							<li className={styles.list}>
+								<strong>Understanding User Needs:</strong> Conducting research
+								on legal challenges faced by women, particularly in workplace
+								exploitation, domestic violence, and immigration issues, helped
+								shape the app's features.
+							</li>
+							<li className={styles.list}>
+								<strong>AI Integration for Legal Assistance: </strong>
+								Implementing AI-driven guidance to assist users in understanding
+								legal rights and next steps.
+							</li>
+							<li className={styles.list}>
+								<strong>Accessibility & Usability:</strong> Prioritizing a
+								simple, intuitive UI to ensure accessibility for all users,
+								including those with limited tech experience.
+							</li>
 
-								<li className={styles.list}>
-									<strong>Privacy & Security Considerations:</strong> Ensuring
-									the document scanning and storage process adhered to data
-									protection best practices.
-								</li>
-								<li className={styles.list}>
-									<strong>Scalability & Future Growth:</strong> Designing Civica
-									to accommodate future expansions, such as additional legal
-									resources and multilingual support.
-								</li>
-							</ul>
-						</p>
+							<li className={styles.list}>
+								<strong>Privacy & Security Considerations:</strong> Ensuring the
+								document scanning and storage process adhered to data protection
+								best practices.
+							</li>
+							<li className={styles.list}>
+								<strong>Scalability & Future Growth:</strong> Designing Civica
+								to accommodate future expansions, such as additional legal
+								resources and multilingual support.
+							</li>
+						</ul>
 					</div>
 					<div className={styles.imageContainer}>
 						<Image

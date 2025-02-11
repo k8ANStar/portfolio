@@ -1,4 +1,5 @@
 "use client";
+import { useEffect } from "react";
 import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
@@ -6,6 +7,12 @@ import WorkShowcase from "@/components/molecules/WorkShowcase";
 import styled from "styled-components";
 
 export default function Home() {
+	useEffect(() => {
+		const image = document.querySelector(`.${styles.portrait}`);
+		if (image) {
+			image.classList.add(styles.pulsate);
+		}
+	}, []);
 	const projectImages = [
 		"/images/civicacover.png",
 		"/images/samsungcover.png",
@@ -23,8 +30,12 @@ export default function Home() {
 	const StyledLink = styled.a`
 		text-decoration: none;
 	`;
+
 	return (
 		<>
+		<meta name="description" content="Kate's Portfolio" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<title>Kate's Portfolio</title>
 			<Header />
 			<main className={styles.home}>
 				{/* Hero Section */}
@@ -43,7 +54,7 @@ export default function Home() {
 						<img
 							src="/images/sleepykate.svg"
 							alt="Kate's Portrait"
-							className={styles.portrait}
+							className={styles.pulsate}
 						/>
 					</div>
 				</section>

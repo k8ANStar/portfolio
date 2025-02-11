@@ -95,12 +95,14 @@
 	padding-bottom: 0.8rem;
 }
 
-
-
 .caseContainer {
 	margin-left: 7rem;
+	
 }
 
+.caseImages {
+	width: auto;
+}
 .colorPalette {
 	display: flex;
 	margin-top: 1rem;
