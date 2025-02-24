@@ -19,13 +19,12 @@ export default function Home() {
 			description: "A comprehensive case study on UX/UI design.",
 			image: "/images/civicacover.png",
 			link: "/projects/projectpages/civica",
-			backgroundColor: "#f5f5f5",
 		},
 		{
 			title: "Print Magazine",
 			description: "A magazine design for a local Japanese garden.",
 			image: "/images/printmag.png",
-			link: "/projects/projectpage/print",
+			link: "/projects/projectpages/print",
 		},
 		{
 			title: "Halloween Children's Book",
