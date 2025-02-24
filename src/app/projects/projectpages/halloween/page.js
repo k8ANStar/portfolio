@@ -265,15 +265,7 @@ export default function HalloweenProject() {
 						))}
 					</div>
 
-					<h4>Mockup</h4>
-					<div className={styles.mockup}>
-						<Image
-							src="/images/halloweencover.svg"
-							alt="mockup 2 ipad"
-							width={800}
-							height={500}
-						/>
-					</div>
+				
 				</div>
 			</main>
 			<Footer />

@@ -106,6 +106,7 @@
 }
 
 .chip {
+		font-size: 1.5rem;
 	display: inline-block;
 	padding: 0.5rem 1rem;
 	background-color: #6fa088;
@@ -113,6 +114,8 @@
 	border-radius: 16px;
 	text-decoration: none;
 	margin-top: 1rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .chip:hover {

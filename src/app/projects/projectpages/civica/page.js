@@ -54,9 +54,9 @@ export default function CivicaProject() {
 				<div className={styles.container}>
 					<div className={styles.imageContainer}>
 						<Image
-							src="/images/mockup-1.webp"
+							src="/images/mockupVid-1.gif"
 							alt="Civica App Mockup"
-							width={600}
+							width={800}
 							height={700}
 						/>
 					</div>
@@ -75,7 +75,13 @@ export default function CivicaProject() {
 							<strong>Tools:</strong> React, Firebase, VSCode, Creative Cloud
 							Suite, Google Suite
 						</p>
-
+						<p className={styles.paragraphDescription}>
+							<strong>Description:</strong> Civica is a legal aid app providing
+							accessible guidance for women, especially immigrants and
+							marginalized groups. It offers step-by-step guides, legal
+							resources, and connections to support services for issues like
+							workplace exploitation, domestic violence, and rental harassment.
+						</p>
 						<a
 							href="https://www.civicalaw.ca/"
 							className={styles.chip}
@@ -84,56 +90,28 @@ export default function CivicaProject() {
 						>
 							View Website
 						</a>
-					</div>
-				</div>
-				<h2 className={styles.headings}>Summary</h2>
-				<div className={styles.container}>
-					<div className={styles.info}>
-						<p>
-							Civica is a legal aid application designed to provide accessible
-							resources and guidance for women facing legal challenges. The
-							project aims to address the gap in affordable and comprehensible
-							legal assistance, particularly for immigrant women and those from
-							marginalized communities. Civica empowers users by offering
-							step-by-step guides, connections to helplines and support
-							organizations, and curated legal resources focused on common
-							issues like workplace exploitation, domestic violence, and rental
-							harassment.
-						</p>
-					</div>
-					<div className={styles.imageContainer}>
-						<Image
-							src="/images/mockupVid-1.gif"
-							alt="Civica App Mockup"
-							width={600}
-							height={500}
-						/>
+						<a
+							href="https://www.figma.com/proto/0NxjFtht1BziwLShVjdx5B/Civica-2.0?node-id=30-1676&starting-point-node-id=30%3A1600"
+							className={styles.chip}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Prototype
+						</a>
 					</div>
 				</div>
 				<h2 className={styles.headings}>Problem</h2>
 				<div className={styles.container}>
 					<div className={styles.info}>
 						<p>
-							Legal assistance can be prohibitively expensive and inaccessible
-							for women in vulnerable situations, such as immigrant caregivers
-							or domestic violence survivors. These individuals often lack
-							resources, awareness of their rights, or confidence in navigating
-							complex legal systems. Existing services are either costly or not
-							user-friendly, creating a significant barrier to justice. Civica
-							was conceptualized to bridge this gap by providing accessible,
-							straightforward, and supportive resources tailored to women's
-							unique challenges.
+							Legal aid is often costly and inaccessible for vulnerable women,
+							such as immigrant caregivers and abuse survivors. Lacking
+							resources and legal awareness, they face barriers to justice.
+							Civica bridges this gap with accessible, user-friendly support.
 						</p>
 					</div>
-					<div className={styles.imageContainer}>
-						<Image
-							src="/images/MacBookmock.png"
-							alt="Civica App Mockup"
-							width={800}
-							height={600}
-						/>
-					</div>
 				</div>
+
 				<h2 className={styles.headings}>Challenges</h2>
 				<h3 className={styles.subHeading}>
 					Designing Civica required addressing the following challenges
@@ -216,48 +194,55 @@ export default function CivicaProject() {
 						/>
 					</div>
 				</div>
-				<h2 className={styles.headings}>My Role in Civica's Development</h2>
-				<div className={styles.container}>
-					<div className={styles.info}>
-						<p>
-							During the development of Civica, I focused on building its
-							document scanning feature, which was one of the app's core
-							functionalities. This feature allowed users to scan and upload
-							legal documents, enabling AI to extract key information and
-							provide relevant legal resources. I implemented the scanning
-							logic, optimized image processing for accuracy, and ensured
-							seamless integration with the app's legal guidance system. The
-							goal was to create a fast, reliable, and user-friendly experience
-							for individuals seeking legal support.
-						</p>
-					</div>
-					<div className={styles.imageContainer}>
-						<Image
-							src="/images/phone.webp"
-							alt="Civica App Mockup"
-							width={260}
-							height={400}
-						/>
-					</div>
-				</div>
+
 				<h2 className={styles.headings}>Research</h2>
-				<h3 className={styles.subHeading}>Cases</h3>
+				<h3 className={styles.subHeading}>Cases </h3>
+				<p className={styles.paragraph}>
+					A collection of real-world legal challenges faced by women,
+					particularly immigrants and marginalized groups. These cases highlight
+					common issues like workplace exploitation, domestic violence, and
+					rental harassment, demonstrating how Civica provides accessible
+					guidance and resources.
+				</p>
 				<div className={styles.caseContainer}>
 					<ImageCarousel images={caseImages} />
 				</div>
+
 				<h3 className={styles.subHeading}>Personas</h3>
+				<p className={styles.paragraph}>
+					Detailed user profiles representing Civica's target audience,
+					including their demographics, pain points, and behaviors. These
+					personas help shape Civica's features by ensuring the platform meets
+					the real needs of women seeking legal assistance.
+				</p>
 				<div className={styles.personaContainer}>
 					<ImageCarousel images={personaImages} />
 				</div>
 				<h3 className={styles.subHeading}>Competitive Analysis</h3>
+				<p className={styles.paragraph}>
+					A comparison of existing legal aid services, identifying gaps in
+					affordability, accessibility, and usability. This research highlights
+					Civica's unique approach to bridging the gap in legal support for
+					women.
+				</p>
 				<div className={styles.compContainer}>
 					<ImageCarousel images={compImages} />
 				</div>
 				<h3 className={styles.subHeading}>Survey Results</h3>
+				<p className={styles.paragraph}>
+					Data-driven insights from user research, focusing on the challenges
+					women face when seeking legal help. The findings guided Civica's
+					development to ensure it meets user needs effectively.
+				</p>
 				<div className={styles.compContainer}>
 					<ImageCarousel images={surveyImages} />
 				</div>
 				<h3 className={styles.subHeading}>Usability Testing</h3>
+				<p className={styles.paragraph}>
+					Hands-on testing of Civica's interface and features to refine its
+					usability. Feedback from real users helped improve navigation,
+					clarity, and accessibility, ensuring a seamless experience.
+				</p>
 				<div className={styles.testingContainer}>
 					<ImageCarousel images={testingImages} />
 				</div>
@@ -342,6 +327,26 @@ export default function CivicaProject() {
 					afterImage="/images/civicawireframes2.png"
 				/>
 
+				<h2 className={styles.headings}>Promotional Video</h2>
+
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p>
+							A compelling introduction to Civica, showcasing its mission,
+							features, and impact. The video highlights real challenges women
+							face, the gaps in existing legal aid services, and how Civica
+							empowers users with accessible legal resources and support.
+						</p>
+					</div>
+					<div className={styles.imageContainer}>
+						<iframe
+							src="https://drive.google.com/file/d/1jjsG_t9_f4lbwEW9TI6Oj7rTqX60weDT/preview"
+							width={800}
+							height={500}
+							allow="autoplay"
+						></iframe>
+					</div>
+				</div>
 				<h2 className={styles.headings}>Key Takeaways</h2>
 
 				<div className={styles.container}>
@@ -381,7 +386,7 @@ export default function CivicaProject() {
 							src="/images/mockup-lap.webp"
 							alt="Civica App Mockup"
 							width={700}
-							height={500}
+							height={450}
 						/>
 					</div>
 				</div>

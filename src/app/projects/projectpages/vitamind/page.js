@@ -25,14 +25,12 @@ export default function VitaminProject() {
 			<main className={styles.main}>
 				<div className={styles.container}>
 					<div className={styles.imageContainer}>
-						<video
-							src="/vitamind.mp4"
-							alt="benefits of vitamin d"
-							width={800}
-							height={500}
-							controls
-							loop
-						/>
+						<iframe
+							src="https://drive.google.com/file/d/11sY5_5ZQQUEcdZF8qrp7dw6IBCFuB4IF/preview"
+							width="800"
+							height="500"
+							allow="autoplay"
+						></iframe>
 					</div>
 					<div className={styles.infoContainer}>
 						<h1 className={styles.headingOne}>Educational Video</h1>

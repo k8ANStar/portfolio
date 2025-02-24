@@ -5,7 +5,7 @@ export default function Footer() {
 	return (
 		<footer className={styles.footer}>
 			<h2>Want to connect?</h2>
-			<p>Links to connect below!</p>
+			<p className={styles.links}>Links to connect below!</p>
 			<div className={styles.icons}>
 				<a
 					href="mailto:katestarchuk@gmail.com"

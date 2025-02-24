@@ -9,7 +9,6 @@
 	text-decoration: none;
 	top: 0;
 	z-index: 1000;
-
 }
 
 .logoContainer {
@@ -20,23 +19,6 @@
 .logo {
 	height: 60px;
 	margin-right: 10px;
-}
-
-.name {
-	margin-top: 1.5rem;
-	display: flex;
-	flex-direction: column;
-	font-size: 2rem;
-	color: black;
-}
-
-.firstName {
-	line-height: 1;
-}
-
-.lastName {
-	line-height: 1;
-	font-weight: bold;
 }
 
 .nav {

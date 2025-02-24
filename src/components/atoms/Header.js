@@ -9,10 +9,7 @@ export default function Header() {
 					<img src="/images/logoks.png" alt="kates Logo" />
 				</Link>
 
-				<div className={styles.name}>
-					<span className={styles.firstName}>Kate</span>
-					<span className={styles.lastName}>Starchuk</span>
-				</div>
+
 			</div>
 
 			<nav className={styles.nav}>

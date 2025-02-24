@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
-import WorkShowcase from "@/components/molecules/WorkShowcase";
 import styled from "styled-components";
 
 export default function Home() {
@@ -13,65 +12,78 @@ export default function Home() {
 			image.classList.add(styles.pulsate);
 		}
 	}, []);
-	const projectImages = [
-		"/images/civicacover.png",
-		"/images/samsungcover.png",
-		"/images/printmag.png",
-		"/images/halloweencover.png",
-		"/images/spacehero.png",
-		"/images/vitamindcover.png",
+
+	const projects = [
+		{
+			title: "Civica Web App",
+			description: "A comprehensive case study on UX/UI design.",
+			image: "/images/civicacover.png",
+			link: "/projects/projectpages/civica",
+			backgroundColor: "#f5f5f5",
+		},
+		{
+			title: "Print Magazine",
+			description: "A magazine design for a local Japanese garden.",
+			image: "/images/printmag.png",
+			link: "/projects/projectpage/print",
+		},
+		{
+			title: "Halloween Children's Book",
+			description: "A digital book design for children.",
+			image: "/images/halloweencover.png",
+			link: "/projects/projectpages/halloween",
+		},
+		{
+			title: "Benefits of Vitamin D",
+			description: "An animated infographic on the benefits of Vitamin D.",
+			image: "/images/vitamindcover.png",
+			link: "/projects/projectpages/vitamind",
+		},
 	];
 
-	const meImages = [
-		"/images/katelyn.png",
-		"/images/katelyn2.jpg",
-		"/images/katelyn3.jpg",
-	];
 	const StyledLink = styled.a`
 		text-decoration: none;
 	`;
 
 	return (
 		<>
-		<meta name="description" content="Kate's Portfolio" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="description" content="Kate's Portfolio" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<title>Kate's Portfolio</title>
 			<Header />
 			<main className={styles.home}>
-				{/* Hero Section */}
 				<section className={styles.hero}>
 					<div className={styles.text}>
-						<h1>Hello, I'm Kate</h1>
+						<h1>Hello, I'm Kate Starchuk</h1>
 						<h2>UX/UI Designer | Frontend Developer</h2>
 						<p>
-							Based in Vancouver, BC, specializing in creating user-centered
-							designs that are both functional and visually engaging. I’m
-							passionate about solving problems through intuitive interfaces and
-							meaningful user experiences.
+							Based in Vancouver, BC, I design functional, user-friendly, and
+							visually engaging experiences with a passion for intuitive
+							problem-solving.
 						</p>
 					</div>
-					<div className={styles.imageContainer}>
-						<img
-							src="/images/sleepykate.svg"
-							alt="Kate's Portrait"
-							className={styles.pulsate}
-						/>
+				</section>
+
+				<h2 className={styles.featuredTitle}>Featured Projects</h2>
+				<section className={styles.featuredProjects}>
+					<div className={styles.projectsContainer}>
+						{projects.map((project, index) => (
+							<StyledLink href={project.link} key={index}>
+								<div className={styles.projectCard}>
+									<img
+										src={project.image}
+										alt={project.title}
+										className={styles.projectImage}
+									/>
+									<h3 className={styles.projectTitle}>{project.title}</h3>
+									<p className={styles.projectDescription}>
+										{project.description}
+									</p>
+								</div>
+							</StyledLink>
+						))}
 					</div>
 				</section>
-				<div className={styles.showcaseContainer}>
-					<div className={styles.showcase}>
-						<StyledLink href="/projects">
-							<WorkShowcase images={projectImages} />
-							<h2 className={styles.heading}>Projects</h2>
-						</StyledLink>
-					</div>
-					<div className={styles.showcase}>
-						<StyledLink href="/about">
-							<WorkShowcase images={meImages} />
-							<h2 className={styles.heading}>About</h2>
-						</StyledLink>
-					</div>
-				</div>
 			</main>
 
 			<Footer />

@@ -1,16 +1,18 @@
 .footer {
+	max-width: 100%;
 	padding: 2rem 0;
 	background: #aed1c0;
 	font-family: "TT Interphases Pro TRL", sans-serif;
-
 	text-align: center;
 }
 
 .footer h2 {
+	font-size: 3rem;
 	margin-bottom: 0.5rem;
 }
 
 .footer p {
+	
 	margin-bottom: 1rem;
 	color: #555;
 }
@@ -18,12 +20,15 @@
 .icons {
 	display: flex;
 	gap: 1rem;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	justify-content: center;
 	display: flex;
 	text-align: justify;
 }
 
+.icons a:hover {
+	color: #214e2b;
+}
 .icons a {
 	color: black;
 	text-decoration: none;
@@ -32,5 +37,10 @@
 }
 
 .created {
+	font-size: 1rem;
 	text-align: center;
+}
+
+.links {
+	font-size: 2rem;
 }

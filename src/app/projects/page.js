@@ -50,13 +50,7 @@ export default function ProjectsHome() {
 					type="Graphic Design"
 					date="March 2024"
 				/>
-				<ProjectCard
-					href="/projects/projectpages/samsung"
-					image="/images/samsungcover.png"
-					title="Samsung Ad Campaign"
-					type="Graphic Design"
-					date="November 2024"
-				/>
+			
 			</main>
 			<Footer />
 		</>
