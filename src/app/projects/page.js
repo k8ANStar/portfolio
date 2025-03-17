@@ -50,7 +50,20 @@ export default function ProjectsHome() {
 					type="Graphic Design"
 					date="March 2024"
 				/>
-			
+				<ProjectCard
+					href="/projects/projectpages/cans"
+					image="/images/cancover.png"
+					title="Can Packaging Design"
+					type="Graphic Design"
+					date="October 2024"
+				/>
+				<ProjectCard
+					href="/projects/projectpages/samsung"
+					image="/images/samsungcover.png"
+					title="Samnsung Mobile Ads"
+					type="Graphic Design"
+					date="November 2024"
+				/>
 			</main>
 			<Footer />
 		</>

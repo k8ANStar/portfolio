@@ -1,69 +1,121 @@
 .main {
-	padding: 4rem 2rem;
+	padding: 2rem;
 	font-family: "TT Interphases Pro TRL", sans-serif;
-	display: flex;
-	justify-content: center;
 }
 
 .container {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 3rem;
-	max-width: 1200px;
-	margin: auto;
+	flex-direction: row;
 }
 
 .imageContainer {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-}
-
-.projectImage {
-	width: 100%;
-	max-width: 500px;
-	height: auto;
-	border-radius: 12px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	align-self: center;
+	padding-left: 5rem;
 }
 
 .infoContainer {
-	flex: 1;
-	padding: 1rem;
+	padding-left: 0.5rem;
 }
 
 .headingOne {
-	font-size: 2.5rem;
+	font-size: 4rem;
 	margin-bottom: 1rem;
 }
 
 .headingTwo {
-	font-size: 1.75rem;
+	font-size: 2.5rem;
 	margin-bottom: 1rem;
-	color: #555;
+	color: #feb81a;
 }
 
 .paragraph {
-	font-size: 1.1rem;
-	line-height: 1.6;
 	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
 }
 
-.chip {
-	display: inline-block;
-	padding: 0.5rem 1rem;
-	background-color: #6fa088;
-	color: white;
-	border-radius: 16px;
-	margin-top: 1rem;
+.info {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	padding-left: 7rem;
+	padding-right: 7rem;
+	text-align: justify;
 }
 
-.blurb {
-	margin-top: 3rem;
+.type {
+	font-size: 2rem;
+}
+
+.subheading {
+	margin-top: 2rem;
 	font-size: 1.2rem;
-	line-height: 1.6;
-	text-align: center;
-	max-width: 800px;
-	margin: auto;
+}
+
+.originalAds {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imageContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.infoContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.info {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.originalAds {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		flex-direction: column;
+	}
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imageContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.infoContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.info {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.originalAds {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		flex-direction: column;
+	}
 }

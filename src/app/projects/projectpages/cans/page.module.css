@@ -1,0 +1,121 @@
+.main {
+	padding: 2rem;
+	font-family: "TT Interphases Pro TRL", sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.imageContainer {
+	align-self: center;
+	padding-left: 5rem;
+}
+
+.infoContainer {
+	padding-left: 0.5rem;
+}
+
+.headingOne {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+.headingTwo {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	color: #feb81a;
+}
+
+.paragraph {
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.info {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	padding-left: 7rem;
+	padding-right: 7rem;
+	text-align: justify;
+}
+
+.type {
+	font-size: 2rem;
+}
+
+.subheading {
+	margin-top: 2rem;
+	font-size: 1.2rem;
+}
+
+.dieLines {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imageContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.infoContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.info {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.dieLines {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		flex-direction: column;
+	}
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imageContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.infoContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.info {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.dieLines {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		flex-direction: column;
+	}
+}
