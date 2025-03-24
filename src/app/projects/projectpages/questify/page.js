@@ -526,13 +526,13 @@ export default function QuestifyProject() {
 					<div className={styles.info}>
 						<ul>
 							<li className={styles.list}>
-								<strong>Low Fidelity (Left):</strong> A basic wireframe
+								<strong>Low Fidelity (Top):</strong> A basic wireframe
 								showcasing the initial layout and structure of Questify. It
 								focused on navigation flow, screen placement, and key
 								interactions without detailed design elements.
 							</li>
 							<li className={styles.list}>
-								<strong>High Fidelity (Right): </strong> A fully designed
+								<strong>High Fidelity (Bottom): </strong> A fully designed
 								version of the app with final UI elements, colors, typography,
 								and interactive components. This prototype closely resembles the
 								finished product, allowing for refined usability testing and
@@ -540,10 +540,18 @@ export default function QuestifyProject() {
 							</li>
 						</ul>
 					</div>
-					<div className={styles.imageComparison}>
-						<ImageComparisonSlider
-							beforeImage="/images/questlowfid.jpg"
-							afterImage="/images/questhighfid.jpg"
+					<div className={styles.fidelity}>
+						<Image
+							src="/images/questlowfid.jpg"
+							alt="history graphics 2"
+							width={500}
+							height={600}
+						/>
+						<Image
+							src="/images/questhighfid.jpg"
+							alt="history graphics 2"
+							width={800}
+							height={600}
 						/>
 					</div>
 				</div>

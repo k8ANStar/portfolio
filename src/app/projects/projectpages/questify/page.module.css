@@ -125,7 +125,10 @@
 .list {
 	padding-bottom: 0.8rem;
 }
-
+.fidelity {
+	display: flex;
+	flex-direction: column;
+}
 .caseContainer {
 	display: flex;
 	flex-direction: column;
