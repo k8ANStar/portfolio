@@ -28,10 +28,6 @@ export default function CivicaProject() {
 		"/images/compan7.png",
 		"/images/compan8.png",
 	];
-	const personaImages = [
-		"/images/civicaPersona1.png",
-		"/images/civicaPersona2.png",
-	];
 
 	const caseImages = [
 		"/images/case1.png",
@@ -47,6 +43,7 @@ export default function CivicaProject() {
 		"/images/civicausability2.png",
 		"/images/civicausability3.png",
 	];
+
 	return (
 		<>
 			<Header />
@@ -75,7 +72,7 @@ export default function CivicaProject() {
 							<strong>Tools:</strong> React, Firebase, VSCode, Creative Cloud
 							Suite, Google Suite
 						</p>
-						<p className={styles.paragraphDescription}>
+						<p className={styles.paragraph}>
 							<strong>Description:</strong> Civica is a legal aid app providing
 							accessible guidance for women, especially immigrants and
 							marginalized groups. It offers step-by-step guides, legal
@@ -98,17 +95,45 @@ export default function CivicaProject() {
 						>
 							Prototype
 						</a>
+						<a
+							href="https://www.instagram.com/civicalaw_/"
+							className={styles.chip}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Instagram
+						</a>
 					</div>
 				</div>
 				<h2 className={styles.headings}>Problem</h2>
 				<div className={styles.container}>
 					<div className={styles.info}>
-						<p>
+						<p className={styles.paragraph}>
 							Legal aid is often costly and inaccessible for vulnerable women,
 							such as immigrant caregivers and abuse survivors. Lacking
 							resources and legal awareness, they face barriers to justice.
 							Civica bridges this gap with accessible, user-friendly support.
 						</p>
+					</div>
+					<div className={styles.probContainer}>
+						<Image
+							src="/images/homecivica.png"
+							alt="home civica"
+							width={260}
+							height={500}
+						/>
+						<Image
+							src="/images/professionalcivica.png"
+							alt="professional civica"
+							width={260}
+							height={500}
+						/>
+						<Image
+							src="/images/supportciv.png"
+							alt="support civcic"
+							width={260}
+							height={500}
+						/>
 					</div>
 				</div>
 
@@ -197,81 +222,105 @@ export default function CivicaProject() {
 
 				<h2 className={styles.headings}>Research</h2>
 				<h3 className={styles.subHeading}>Cases </h3>
-				<p className={styles.paragraph}>
-					A collection of real-world legal challenges faced by women,
-					particularly immigrants and marginalized groups. These cases highlight
-					common issues like workplace exploitation, domestic violence, and
-					rental harassment, demonstrating how Civica provides accessible
-					guidance and resources.
-				</p>
-				<div className={styles.caseContainer}>
-					<ImageCarousel images={caseImages} />
-				</div>
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p className={styles.list}>
+							A collection of real-world legal challenges faced by women,
+							particularly immigrants and marginalized groups. These cases
+							highlight common issues like workplace exploitation, domestic
+							violence, and rental harassment, demonstrating how Civica provides
+							accessible guidance and resources.
+						</p>
+					</div>
 
+					<div className={styles.caseContainer}>
+						<ImageCarousel images={caseImages} />
+					</div>
+				</div>
 				<h3 className={styles.subHeading}>Personas</h3>
-				<p className={styles.paragraph}>
-					Detailed user profiles representing Civica's target audience,
-					including their demographics, pain points, and behaviors. These
-					personas help shape Civica's features by ensuring the platform meets
-					the real needs of women seeking legal assistance.
-				</p>
-				<div className={styles.personaContainer}>
-					<ImageCarousel images={personaImages} />
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p className={styles.list}>
+							Detailed user profiles representing Civica's target audience,
+							including their demographics, pain points, and behaviors. These
+							personas help shape Civica's features by ensuring the platform
+							meets the real needs of women seeking legal assistance.
+						</p>
+					</div>
+					<div className={styles.personaContainer}>
+						<Image
+							src="/images/civicaPersona1.png"
+							alt="persona 1"
+							width={450}
+							height={700}
+						/>
+						<Image
+							src="/images/civicaPersona2.png"
+							alt="persona 2"
+							width={450}
+							height={700}
+						/>
+					</div>
 				</div>
 				<h3 className={styles.subHeading}>Competitive Analysis</h3>
-				<p className={styles.paragraph}>
-					A comparison of existing legal aid services, identifying gaps in
-					affordability, accessibility, and usability. This research highlights
-					Civica's unique approach to bridging the gap in legal support for
-					women.
-				</p>
-				<div className={styles.compContainer}>
-					<ImageCarousel images={compImages} />
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p className={styles.paragraph}>
+							A comparison of existing legal aid services, identifying gaps in
+							affordability, accessibility, and usability. This research
+							highlights Civica's unique approach to bridging the gap in legal
+							support for women.
+						</p>
+					</div>
+					<div className={styles.compContainer}>
+						<ImageCarousel images={compImages} />
+					</div>
 				</div>
 				<h3 className={styles.subHeading}>Survey Results</h3>
-				<p className={styles.paragraph}>
-					Data-driven insights from user research, focusing on the challenges
-					women face when seeking legal help. The findings guided Civica's
-					development to ensure it meets user needs effectively.
-				</p>
-				<div className={styles.compContainer}>
-					<ImageCarousel images={surveyImages} />
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p className={styles.paragraph}>
+							Data-driven insights from user research, focusing on the
+							challenges women face when seeking legal help. The findings guided
+							Civica's development to ensure it meets user needs effectively.
+						</p>
+					</div>
+					<div className={styles.compContainer}>
+						<ImageCarousel images={surveyImages} />
+					</div>
 				</div>
 				<h3 className={styles.subHeading}>Usability Testing</h3>
-				<p className={styles.paragraph}>
-					Hands-on testing of Civica's interface and features to refine its
-					usability. Feedback from real users helped improve navigation,
-					clarity, and accessibility, ensuring a seamless experience.
-				</p>
-				<div className={styles.testingContainer}>
-					<ImageCarousel images={testingImages} />
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p className={styles.paragraph}>
+							Hands-on testing of Civica's interface and features to refine its
+							usability. Feedback from real users helped improve navigation,
+							clarity, and accessibility, ensuring a seamless experience.
+						</p>
+					</div>
+					<div className={styles.testingContainer}>
+						<Image
+							src="/images/civicausability1.png"
+							alt="persona 1"
+							width={380}
+							height={500}
+						/>
+						<Image
+							src="/images/civicausability2.png"
+							alt="persona 2"
+							width={380}
+							height={500}
+						/>
+						<Image
+							src="/images/civicausability3.png"
+							alt="persona 2"
+							width={380}
+							height={500}
+						/>
+					</div>
 				</div>
 				<h2 className={styles.headings}>Design Process</h2>
-				<h3 className={styles.subHeading}>Color Palettes</h3>
-				<h4 className={styles.miniHeading}>First Iteration</h4>
-				<div className={styles.colorPalette}>
-					<div
-						className={styles.color}
-						style={{ backgroundColor: "#374375" }}
-					></div>
-					<div
-						className={styles.color}
-						style={{ backgroundColor: "#BABDE2" }}
-					></div>
-					<div
-						className={styles.color}
-						style={{ backgroundColor: "#FFFCF5", border: "1px solid #000" }}
-					></div>
-					<div
-						className={styles.color}
-						style={{ backgroundColor: "#895159" }}
-					></div>
-					<div
-						className={styles.color}
-						style={{ backgroundColor: "#DFAEA1" }}
-					></div>
-				</div>
-				<h4 className={styles.miniHeading}>Final Iteration</h4>
+				<h3 className={styles.subHeading}>Color Palette</h3>
 				<div className={styles.colorPalette}>
 					<div
 						className={styles.color}
@@ -304,31 +353,150 @@ export default function CivicaProject() {
 					></div>
 				</div>
 				<h3 className={styles.subHeading}>Typography</h3>
-				<Image
-					src="/images/font.png"
-					alt="Typography"
-					width={400}
-					height={350}
-				/>
-				<Image
-					src="/images/spacing.png"
-					alt="Typography"
-					width={400}
-					height={350}
-				/>
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<ul>
+							<li className={styles.list}>
+								<strong>Primary Font:</strong> The primary font, Lexend, was
+								chosen for its clarity and readability, particularly for users
+								who may experience reading difficulties. Its clean and modern
+								design ensures that text is easy to read across different
+								devices and screen sizes.
+							</li>
+							<li className={styles.list}>
+								<strong>Spacing: </strong>
+								There was careful considerations in creating comfortable reading
+								experience, with sufficient space between lines and letters to
+								enhance legibility. This intentional spacing helps reduce visual
+								clutter and improves overall user comprehension and
+								accessibility.
+							</li>
+						</ul>
+					</div>
+					<div className={styles.typoContainer}>
+						<Image
+							src="/images/font.png"
+							alt="Typography"
+							width={400}
+							height={350}
+						/>
+						<Image
+							src="/images/spacing.png"
+							alt="Typography"
+							width={400}
+							height={350}
+						/>
+					</div>
+				</div>
+				<h3 className={styles.subHeading}>Logo and Icons</h3>
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<ul>
+							<li className={styles.list}>
+								<strong>Logo:</strong> The Civica logo features two hearts
+								coming together, symbolizing care, support, and unity, aligning
+								with the app's mission to provide compassionate legal aid and
+								empowerment for women.
+							</li>
+							<li className={styles.list}>
+								<strong>Icons: </strong>
+								The icons were designed to clearly represent each core feature,
+								ensuring intuitive navigation. Each icon is simple and
+								recognizable, guiding users to essential services like legal
+								guides and mental health support.
+							</li>
+						</ul>
+					</div>
+					<div className={styles.icons}>
+						<Image
+							src="/images/civicalogo.png"
+							alt="civilogo"
+							width={120}
+							height={90}
+						/>
+						<Image
+							src="/images/supportDark.png"
+							alt="Typography"
+							width={100}
+							height={90}
+						/>
+						<Image
+							src="/images/docscanDark.png"
+							alt="Typography"
+							width={100}
+							height={90}
+						/>
+						<Image
+							src="/images/chatDark.png"
+							alt="Typography"
+							width={100}
+							height={90}
+						/>
+						<Image
+							src="/images/civicon1.png"
+							alt="Typography"
+							width={90}
+							height={90}
+						/>
+						<Image
+							src="/images/civicon2.png"
+							alt="Typography"
+							width={90}
+							height={90}
+						/>
+						<Image
+							src="/images/civicon3.png"
+							alt="Typography"
+							width={100}
+							height={80}
+						/>
+						<Image
+							src="/images/civicon4.png"
+							alt="Typography"
+							width={100}
+							height={70}
+						/>
+					</div>
+				</div>
 				<h3 className={styles.subHeading}>Wireframes</h3>
-				<div className={styles.fid}>
-					<h4>Low Fidelity Prototype</h4>
-					<h4>High Fidelity Prototype</h4>
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<ul>
+							<li className={styles.list}>
+								<strong>Low Fidelity Prototype (Top):</strong> On the top our
+								first iteration featured a mascot, making the design feel more
+								playful and juvenile. While visually engaging, it didn't align
+								with the serious nature of a legal aid app, potentially
+								affecting credibility and user trust.
+							</li>
+							<li className={styles.list}>
+								<strong>High Fidelity Prototype (Bottom): </strong>
+								The final wireframe on the right adopts a more professional and
+								refined design, removing the mascot and focusing on a clean,
+								structured layout. This shift ensures Civica conveys trust,
+								reliability, and authority, making it more suitable for users
+								seeking legal assistance.
+							</li>
+						</ul>
+					</div>
+					<div className={styles.imageContainer}>
+						<Image
+							src="/images/civicawireframes1.png"
+							alt="Typography"
+							width={700}
+							height={430}
+						/>
+						<Image
+							src="/images/civicawireframes2.png"
+							alt="Typography"
+							width={700}
+							height={430}
+						/>
+					</div>
 				</div>
 
-				<ImageComparisonSlider
-					beforeImage="/images/civicawireframes1.png"
-					afterImage="/images/civicawireframes2.png"
-				/>
-
-				<h2 className={styles.headings}>Promotional Video</h2>
-
+				<h2 className={styles.headings}>Promotionals</h2>
+				<h3 className={styles.subHeading}>Video</h3>
 				<div className={styles.container}>
 					<div className={styles.info}>
 						<p>
@@ -345,6 +513,41 @@ export default function CivicaProject() {
 							height={500}
 							allow="autoplay"
 						></iframe>
+					</div>
+				</div>
+				<h3 className={styles.subHeading}>Business Card and Brochure</h3>
+				<div className={styles.container}>
+					<div className={styles.info}>
+						<p>
+							The brochure presents Civica's mission and services in a clear,
+							engaging layout, using balanced text, imagery, and a professional
+							color scheme to enhance readability and trust.
+						</p>
+						<p>
+							The business card maintains a clean, modern design, ensuring key
+							details are easily accessible while reinforcing Civica's brand
+							identity and professionalism.
+						</p>
+					</div>
+					<Image
+						src="/images/businesscard.png"
+						alt="business card"
+						width={270}
+						height={500}
+					/>
+					<div className={styles.brochure}>
+						<Image
+							src="/images/civicabrochure.png"
+							alt="brochure 1"
+							width={400}
+							height={300}
+						/>
+						<Image
+							src="/images/civicabrochure2.png"
+							alt="brochure 2"
+							width={400}
+							height={300}
+						/>
 					</div>
 				</div>
 				<h2 className={styles.headings}>Key Takeaways</h2>

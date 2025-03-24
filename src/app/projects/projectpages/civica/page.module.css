@@ -1,6 +1,7 @@
 .main {
 	padding: 2rem;
 	font-family: "TT Interphases Pro TRL", sans-serif;
+	margin: 10rem;
 }
 
 .container {
@@ -19,28 +20,28 @@
 	margin-left: 2rem;
 }
 
-.paragraphDescription {
-	font-size: 1.2rem;
-	margin-bottom: 1rem;
-}
-
 .personaContainer {
-	margin-left: 7rem;
+	display: flex;
+	gap: 1rem;
 }
 
 .compContainer {
-	margin-left: 7rem;
+	width: 100%;
 }
 
 .surveyContainer {
 	gap: 1rem;
 	margin-left: 7rem;
 }
-
+.testingContainer {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	border: 1px solid #6fa088;
+}
 .infoContainer {
 	width: 100%;
 	padding-left: 2rem;
-	padding-right: 5rem;
 }
 
 .headingOne {
@@ -51,14 +52,12 @@
 .headingTwo {
 	font-size: 2.5rem;
 	margin-bottom: 1rem;
-	color: #414140;
+	color: #feb81a;
 }
 
 .paragraph {
-	margin-bottom: 0.5rem;
 	font-size: 1.5rem;
-	padding-left: 3rem;
-	padding-right: 5rem;
+	margin-top: 1rem;
 }
 
 .chip {
@@ -73,17 +72,38 @@
 	margin-right: 0.5rem;
 	margin-bottom: 0.5rem;
 }
+.typoContainer {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
 
 .chip:hover {
 	background-color: #23572f;
 }
-
+.icons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	padding-left: 2rem;
+}
 .info {
 	font-size: 1.5rem;
-	margin-top: 1rem;
-	margin-left: 3rem;
+	padding-left: 3rem;
+	padding-right: 5rem;
 }
-
+.infoBrochure {
+	font-size: 1.5rem;
+}
+.brochure {
+	display: flex;
+	flex-direction: column;
+}
+.probContainer {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
 .type {
 	font-size: 2rem;
 }
@@ -92,6 +112,7 @@
 	color: #feb81a;
 	font-size: 2rem;
 	margin-left: 3rem;
+	padding-top: 3rem;
 }
 
 .subHeading {
@@ -109,13 +130,8 @@
 }
 
 .caseContainer {
-	display: flex;
-	flex-direction: column;
-	margin-left: 7rem;
-	margin-left: 6rem;
+	width: 100%;
 }
-
-
 
 .colorPalette {
 	display: flex;

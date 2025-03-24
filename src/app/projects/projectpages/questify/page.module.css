@@ -1,0 +1,300 @@
+.main {
+	padding: 2rem;
+	font-family: "TT Interphases Pro TRL", sans-serif;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.conceptDrawings {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: space-between;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.imageContainer {
+	display: flex;
+}
+
+.paragraphDescription {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.personaContainer {
+	margin-left: 7rem;
+}
+
+.compContainer {
+	margin-left: 7rem;
+}
+
+.surveyContainer {
+	gap: 1rem;
+	margin-left: 7rem;
+}
+
+.imageComparison {
+	display: flex;
+	align-content: center;
+	width: 100%;
+	height: 40%;
+}
+.infoContainer {
+	width: 50%;
+	padding-left: 2rem;
+	padding-right: 6rem;
+	margin-right: 2rem;
+}
+
+.headingOne {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+.headingTwo {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	color: #feb81a;
+}
+
+.paragraph {
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	padding-left: 3rem;
+	padding-right: 5rem;
+}
+
+.chip {
+	font-size: 1.5rem;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	background-color: #6fa088;
+	color: white;
+	border-radius: 16px;
+	text-decoration: none;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.chip:hover {
+	background-color: #23572f;
+}
+
+.info {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-left: 3rem;
+}
+
+.type {
+	font-size: 2rem;
+}
+
+.headings {
+	padding-top: 3rem;
+	color: #feb81a;
+	font-size: 2rem;
+	margin-left: 3rem;
+}
+
+.subHeading {
+	font-size: 1.5rem;
+	margin-left: 3rem;
+}
+
+.miniHeading {
+	font-size: 1.2rem;
+	margin-left: 3rem;
+}
+
+.list {
+	padding-bottom: 0.8rem;
+}
+
+.caseContainer {
+	display: flex;
+	flex-direction: column;
+	margin-left: 7rem;
+	margin-left: 6rem;
+}
+
+.colorPalette {
+	display: flex;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	margin-left: 3rem;
+}
+
+.color {
+	width: 15rem;
+	height: 60px;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+.fid {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imageContainer,
+	.infoContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-left: 0;
+	}
+
+	.personaContainer,
+	.compContainer,
+	.surveyContainer,
+	.caseContainer {
+		margin-left: 0;
+	}
+
+	.headingOne {
+		font-size: 3rem;
+	}
+
+	.headingTwo {
+		font-size: 2rem;
+	}
+
+	.paragraph {
+		font-size: 1.2rem;
+	}
+
+	.chip {
+		font-size: 1.2rem;
+		padding: 0.4rem 0.8rem;
+	}
+
+	.info {
+		font-size: 1.2rem;
+		margin-left: 0;
+	}
+
+	.type {
+		font-size: 1.5rem;
+	}
+
+	.headings,
+	.subHeading,
+	.miniHeading {
+		margin-left: 0;
+	}
+
+	.colorPalette {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0;
+	}
+
+	.color {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.fid {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imageContainer,
+	.infoContainer {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-left: 0;
+	}
+
+	.imageContainer img {
+		width: 100%;
+		height: auto;
+	}
+
+	.personaContainer,
+	.compContainer,
+	.surveyContainer,
+	.caseContainer {
+		margin-left: 0;
+	}
+
+	.headingOne {
+		font-size: 3rem;
+	}
+	.headingTwo {
+		font-size: 2rem;
+	}
+
+	.paragraph {
+		font-size: 1.2rem;
+	}
+
+	.chip {
+		font-size: 1.2rem;
+		padding: 0.4rem 0.8rem;
+		margin-right: 0.5rem; /* Add margin to space chips apart */
+		margin-bottom: 0.5rem; /* Add margin to space chips apart */
+	}
+
+	.info {
+		font-size: 1.2rem;
+		margin-left: 0;
+	}
+
+	.type {
+		font-size: 1.5rem;
+	}
+
+	.headings,
+	.subHeading,
+	.miniHeading {
+		margin-left: 0;
+	}
+
+	.colorPalette {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0;
+	}
+
+	.color {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.fid {
+		flex-direction: column;
+		align-items: center;
+	}
+}

@@ -27,8 +27,8 @@ export default function ImageCarousel({ images }) {
 					src={images[currentIndex]}
 					alt={`Image ${currentIndex + 1}`}
 					layout="responsive"
-					width={600}
-					height={800}
+					width={800}
+					height={900}
 				/>
 			</div>
 			<button className={styles.arrow} onClick={handleNextClick}>

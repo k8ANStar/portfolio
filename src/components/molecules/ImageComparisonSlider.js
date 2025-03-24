@@ -5,20 +5,25 @@ import {
 
 export default function ImageComparisonSlider({ beforeImage, afterImage }) {
 	return (
-		<ReactCompareSlider
-			itemOne={<ReactCompareSliderImage src={beforeImage} alt="Before" />}
-			itemTwo={<ReactCompareSliderImage src={afterImage} alt="After" />}
-			handle={
-				<div
-					style={{
-						width: "20px",
-						height: "20px",
-						backgroundColor: "#000",
-						borderRadius: "50%",
-						cursor: "ew-resize",
-					}}
-				></div>
-			}
-		/>
+		<div >
+			<ReactCompareSlider
+				itemOne={
+					<ReactCompareSliderImage
+						src={beforeImage}
+						alt="Before"
+						style={{ width: "800px", height: "800px" }}
+						loading="lazy"
+					/>
+				}
+				itemTwo={
+					<ReactCompareSliderImage
+						src={afterImage}
+						alt="After"
+						style={{ width: "900px", height: "800px" }}
+						loading="lazy"
+					/>
+				}
+			/>
+		</div>
 	);
 }

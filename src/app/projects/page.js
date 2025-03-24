@@ -64,6 +64,13 @@ export default function ProjectsHome() {
 					type="Graphic Design"
 					date="November 2024"
 				/>
+				<ProjectCard
+					href="/projects/projectpages/questify"
+					image="/images/questifycover.png"
+					title="Questify Case Study"
+					type="UX/UI Design"
+					date="January - May 2024"
+				/>
 			</main>
 			<Footer />
 		</>

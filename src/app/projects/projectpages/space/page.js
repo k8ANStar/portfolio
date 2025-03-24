@@ -36,7 +36,7 @@ export default function SpaceProject() {
 							<strong>Timeline:</strong> 2 weeks
 						</p>
 						<p className={styles.paragraph}>
-							<strong>Tools:</strong> Indesign, Photoshop, Illustrator
+							<strong>Tools:</strong> InDesign, Photoshop, Illustrator
 						</p>
 					</div>
 				</div>

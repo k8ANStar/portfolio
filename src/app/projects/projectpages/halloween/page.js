@@ -3,7 +3,7 @@ import Header from "@/components/atoms/Header";
 import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
 import Image from "next/image";
-import ImageCarousel from "@/components/molecules/ImageCarousel";
+
 export default function HalloweenProject() {
 	const assets = [
 		"/images/tree.svg",
@@ -19,12 +19,6 @@ export default function HalloweenProject() {
 		"/images/Scarecrow.svg",
 		"/images/Vampire.svg",
 		"/images/Werewolf.svg",
-	];
-
-	const storyboardImages = [
-		"/images/storyboard1.png",
-		"/images/storyboard2.png",
-		"/images/storyboard3.png",
 	];
 
 	return (
@@ -48,7 +42,7 @@ export default function HalloweenProject() {
 						</p>
 
 						<p className={styles.paragraph}>
-							<strong>Tools:</strong> Indesign, Illustrator
+							<strong>Tools:</strong> InDesign, Illustrator
 						</p>
 						<a
 							href="https://indd.adobe.com/view/c65c131f-c4b0-4d42-890a-f0dc563f98ce"
@@ -248,9 +242,36 @@ export default function HalloweenProject() {
 						/>
 					</div>
 					<h4>Storyboard Breakdown</h4>
-					<div className={styles.storyboard}>
-						<ImageCarousel images={storyboardImages} />
+					<div className={styles.container}>
+						
+							<p className={styles.info}>
+								The storyboarding was designed with the goal of engaging
+								children through interactive storytelling. The storyboard
+								follows a simple, clear narrative that introduces fun characters
+								and Halloween-themed challenges, ensuring a captivating
+								experience for young readers.
+							</p>
+					
+						<Image
+							src="/images/storyboard1.png"
+							alt="Storyboard 1"
+							width={400}
+							height={600}
+						/>
+						<Image
+							src="/images/storyboard2.png"
+							alt="Storyboard 2"
+							width={400}
+							height={600}
+						/>
+						<Image
+							src="/images/storyboard3.png"
+							alt="Storyboard 3"
+							width={400}
+							height={600}
+						/>
 					</div>
+
 					<h4>Assets</h4>
 					<div className={styles.assets}>
 						{assets.map((asset, index) => (
@@ -264,8 +285,6 @@ export default function HalloweenProject() {
 							</div>
 						))}
 					</div>
-
-				
 				</div>
 			</main>
 			<Footer />

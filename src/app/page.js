@@ -46,7 +46,7 @@ export default function Home() {
 
 	return (
 		<>
-			<meta name="description" content="Kate's Portfolio" />
+			<meta name="Kate's Portfolio" content="Kate's Portfolio" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<title>Kate's Portfolio</title>
 			<Header />

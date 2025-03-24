@@ -44,7 +44,9 @@ export default function VitaminProject() {
 						</p>
 					</div>
 				</div>
+
 				<div className={styles.info}>
+					<h2 className={styles.process}>Description</h2>
 					<p>
 						The Benefits of Vitamin D is an informative video that follows the
 						story of Jess, who is struggling with a vitamin D deficiency.
@@ -68,7 +70,7 @@ export default function VitaminProject() {
 					</p>
 					<h2 className={styles.process}>Creative Process</h2>
 					<h4>Color Palette</h4>
-					{/* Color Palette */}
+
 					<div className={styles.colorPalette}>
 						<div
 							className={styles.color}

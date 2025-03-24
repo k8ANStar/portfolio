@@ -59,22 +59,22 @@ export default function CanProject() {
 					<h4>Die Lines</h4>
 					<div className={styles.dieLines}>
 						<Image
-							src="/images/berry_flavor_proof.svg"
+							src="/images/berry_flavor_proof.png"
 							alt="Berry Flavor Die Line"
 							width={800}
-							height={500}
+							height={570}
 						/>
 						<Image
-							src="/images/citrus_flavor_proof.svg"
+							src="/images/citrus_flavor_proof.png"
 							alt="Citrus Flavor Die Line"
 							width={800}
-							height={500}
+							height={570}
 						/>
 						<Image
-							src="/images/phantom_flavor_proof.svg"
+							src="/images/phantom_flavor_proof.png"
 							alt="Phantom Flavor Die Line"
 							width={800}
-							height={500}
+							height={570}
 						/>
 					</div>
 				</div>
