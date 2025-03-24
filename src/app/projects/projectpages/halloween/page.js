@@ -243,7 +243,6 @@ export default function HalloweenProject() {
 					</div>
 					<h4>Storyboard Breakdown</h4>
 					<div className={styles.container}>
-						
 							<p className={styles.info}>
 								The storyboarding was designed with the goal of engaging
 								children through interactive storytelling. The storyboard

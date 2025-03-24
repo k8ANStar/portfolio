@@ -53,8 +53,8 @@ export default function CivicaProject() {
 						<Image
 							src="/images/mockupVid-1.gif"
 							alt="Civica App Mockup"
-							width={800}
-							height={700}
+							width={700}
+							height={600}
 						/>
 					</div>
 					<div className={styles.infoContainer}>
@@ -302,20 +302,20 @@ export default function CivicaProject() {
 						<Image
 							src="/images/civicausability1.png"
 							alt="persona 1"
-							width={380}
-							height={500}
+							width={280}
+							height={390}
 						/>
 						<Image
 							src="/images/civicausability2.png"
 							alt="persona 2"
-							width={380}
-							height={500}
+							width={280}
+							height={390}
 						/>
 						<Image
 							src="/images/civicausability3.png"
 							alt="persona 2"
-							width={380}
-							height={500}
+							width={280}
+							height={390}
 						/>
 					</div>
 				</div>
@@ -479,7 +479,7 @@ export default function CivicaProject() {
 							</li>
 						</ul>
 					</div>
-					<div className={styles.imageContainer}>
+					<div>
 						<Image
 							src="/images/civicawireframes1.png"
 							alt="Typography"

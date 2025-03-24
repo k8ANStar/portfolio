@@ -12,9 +12,7 @@
 
 .imageContainer {
 	display: flex;
-	width: 40%;
 	align-self: center;
-	padding-left: 7rem;
 }
 
 .infoContainer {
@@ -56,8 +54,7 @@
 .info {
 	font-size: 1.5rem;
 	margin-top: 2rem;
-	padding-left: 7rem;
-	padding-right: 7rem;
+	
 	text-align: justify;
 }
 
@@ -66,7 +63,7 @@
 }
 
 .process {
-	
+
 	color: #feb81a;
 	font-size: 2rem;
 }

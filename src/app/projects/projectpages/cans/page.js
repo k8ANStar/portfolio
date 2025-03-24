@@ -61,20 +61,20 @@ export default function CanProject() {
 						<Image
 							src="/images/berry_flavor_proof.png"
 							alt="Berry Flavor Die Line"
-							width={800}
-							height={570}
+							width={500}
+							height={470}
 						/>
 						<Image
 							src="/images/citrus_flavor_proof.png"
 							alt="Citrus Flavor Die Line"
-							width={800}
-							height={570}
+							width={500}
+							height={470}
 						/>
 						<Image
 							src="/images/phantom_flavor_proof.png"
 							alt="Phantom Flavor Die Line"
-							width={800}
-							height={570}
+							width={500}
+							height={470}
 						/>
 					</div>
 				</div>

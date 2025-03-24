@@ -1,8 +1,7 @@
 .main {
 	padding: 2rem;
 	font-family: "TT Interphases Pro TRL", sans-serif;
-	margin-left: 10rem;
-	margin-right: 10rem;
+	margin: 3rem;
 }
 
 .container {
@@ -31,7 +30,6 @@
 
 .paragraphDescription {
 	font-size: 1.2rem;
-	margin-bottom: 1rem;
 }
 
 .personaContainer {
@@ -47,17 +45,8 @@
 	margin-left: 7rem;
 }
 
-.imageComparison {
-	display: flex;
-	align-content: center;
-	width: 100%;
-	height: 40%;
-}
 .infoContainer {
 	width: 50%;
-	padding-left: 2rem;
-	padding-right: 6rem;
-	margin-right: 2rem;
 }
 
 .headingOne {

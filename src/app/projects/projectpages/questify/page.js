@@ -4,7 +4,7 @@ import Footer from "@/components/atoms/Footer";
 import styles from "./page.module.css";
 import Image from "next/image";
 import ImageCarousel from "@/components/molecules/ImageCarousel";
-import ImageComparisonSlider from "@/components/molecules/ImageComparisonSlider";
+
 export default function QuestifyProject() {
 	const personaImages = [
 		"/images/persona1quest.png",

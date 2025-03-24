@@ -1,7 +1,7 @@
 .main {
 	padding: 2rem;
 	font-family: "TT Interphases Pro TRL", sans-serif;
-	margin: 10rem;
+	margin: 3rem;
 }
 
 .container {
@@ -9,9 +9,8 @@
 }
 
 .imageContainer {
-	width: 70%;
+	
 	align-self: center;
-	padding-left: 7rem;
 }
 
 .infoContainer {
@@ -51,8 +50,8 @@
 .info {
 	font-size: 1.5rem;
 	margin-top: 2rem;
-	padding-left: 7rem;
-	padding-right: 7rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	text-align: justify;
 }
 
@@ -107,10 +106,7 @@
 	margin-top: 1rem;
 }
 .paragraph {
-	
 	font-size: 1.5rem;
-	
-	
 }
 
 .chip {
