@@ -71,6 +71,13 @@ export default function ProjectsHome() {
 					type="UX/UI Design"
 					date="January - May 2024"
 				/>
+				<ProjectCard
+					href="/projects/projectpages/parallax"
+					image="/images/parallaxcover.png"
+					title="Parallax Website"
+					type="Web Development"
+					date="March 2024"
+				/>
 			</main>
 			<Footer />
 		</>
