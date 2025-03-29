@@ -27,7 +27,6 @@ const locations = {
 export default function ParallaxProject() {
 	useEffect(() => {
 		const sections = document.querySelectorAll(`.${styles.parallaxSection}`);
-		const floatingImage = document.querySelector(`.${styles.floatingImage}`);
 
 		const observer = new IntersectionObserver(
 			(entries) => {
@@ -50,18 +49,23 @@ export default function ParallaxProject() {
 	return (
 		<>
 			<Header />
-			<header className={styles.header}>
-				<h1 className={styles.title}>Sunsets</h1>
-				<div className={styles.headerMask}></div>
-			</header>
-			<main>
+			<div className={styles.floatingImageContainer}>
 				<Image
 					className={styles.floatingImage}
 					src="/images/sleeping2.png"
 					alt="Floating Object"
-					width={400}
-					height={400}
+					width={200}
+					height={200}
 				/>
+			</div>
+			<header className={styles.header}>
+				<h1 className={styles.headerTitle}>Parallax Project</h1>
+				<span className={styles.headerSubtitle}>
+					An immersive journey through stunning sunsets.
+				</span>
+				<div className={styles.headerMask}></div>
+			</header>
+			<main>
 				{Object.entries(locations).map(([location, { description }]) => (
 					<section
 						key={location}

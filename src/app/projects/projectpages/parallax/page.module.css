@@ -1,5 +1,8 @@
 /* Background Styling */
 
+.main {
+	font-family: "TT Interphases Pro TRL", sans-serif;
+}
 .background,
 .header {
 	text-align: center;
@@ -23,7 +26,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center bottom;
-	z-index: 2;
+	z-index: 1;
 }
 /* Title */
 .title {
@@ -34,29 +37,39 @@
 	position: absolute;
 	width: 100%;
 	font-family: "TT Interphases Pro TRL", sans-serif;
-	z-index: 0;
+	z-index: 1;
 	top: 15%;
 	opacity: 1;
 	color: white;
 	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
 	transform: translateY(0px);
-	transition: transform 1.5s ease-in-out;
+	transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
 }
 
+/* Text Wrapper */
+.textWrapper {
+	position: relative;
+	z-index: 0;
+	padding: 2rem;
+	color: white;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
 /* When section becomes active */
 .parallaxSection.active .title {
 	transform: translateY(150px);
+	opacity: 1;
 }
 
 /* Active Title */
 .parallaxSection.active .title {
 	opacity: 1;
-	z-index: 2;
+	z-index: 1;
 	transform: translateY(150px);
 }
 
 /* Description */
 .description {
+	font-family: "TT Interphases Pro TRL", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
 	color: white;
@@ -64,9 +77,9 @@
 	width: 80%;
 	max-width: 800px;
 	left: 50%;
-	transform: translateX(-50%) translateY(50px); /* Start lower */
+	transform: translateX(-50%) translateY(50px);
 	opacity: 0;
-	z-index: 0;
+	z-index: 1;
 	transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
@@ -74,7 +87,7 @@
 /* Show the description when active */
 .parallaxSection.active .description {
 	opacity: 1;
-	transform: translateX(-50%) translateY(10px); /* Moves up slowly */
+	transform: translateX(-50%) translateY(10px);
 }
 
 /* Dynamic Backgrounds */
@@ -132,26 +145,42 @@
 	src: url("/fonts/TTInterphases.woff2") format("woff2");
 	font-display: swap;
 }
-
-.floatingImage {
+/* Floating Image */
+.floatingImageContainer {
 	position: fixed;
-	top: -10%;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 80px; /* Adjust size as needed */
-	height: auto;
-	z-index: 10;
-	animation: floatDown 15s linear infinite;
-	pointer-events: none; /* So it doesn't interfere with scrolling */
+	top: 20%;
+	left: 10%;
+	z-index: 2;
+	pointer-events: none;
 }
 
-@keyframes floatDown {
-	0% {
-		transform: translateX(-50%) translateY(-10%);
-		opacity: 1;
-	}
+.floatingImage {
+	animation: breathing 3s ease-in-out infinite;
+	width: 200px;
+	height: auto;
+}
+
+/* Breathing Animation */
+@keyframes breathing {
+	0%,
 	100% {
-		transform: translateX(-50%) translateY(120vh);
-		opacity: 0;
+		transform: scale(1);
 	}
+	50% {
+		transform: scale(1.1);
+	}
+}
+
+.headerTitle {
+	font-size: 3rem;
+	color: white;
+	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+	font-family: "TT Interphases Pro TRL", sans-serif;
+}
+
+.headerSubtitle {
+	font-size: 1.5rem;
+	color: white;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+	font-family: "TT Interphases Pro TRL", sans-serif;
 }
